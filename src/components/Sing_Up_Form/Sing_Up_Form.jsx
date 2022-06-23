@@ -1,39 +1,42 @@
 import React from 'react';
-import imageSrc from '../picture.png';
+import imageSrc from '../../img/picture.png';
+
+import s from './Sing_Up_Form.module.css'
 
 const Sing_Up_Form = () => {
-    return   <div className='Sing_Up_Form'>
-    <div className='Sing_Up_Form_wrap'>
+    return   <div className={s.SingUpForm}>
+    <div className={s.FormWrap}>
     
 
 <h3>Sign Up to Learn More About Design Struct</h3>
 <p>Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to the process</p>
 
-<div className='Sing_Up_Wrap'>
+<div className={s.SingUpWrap}>
 
 <form action="">
   <label for="Username"><b>Username</b></label>
-<input type="text" name="Username" ></input>
+<input  type="text" name="Username" ></input>
 
 <label for="email"><b>email</b></label>
-<input type="text" name="email" required></input>
+<input type="email" name="email" required></input>
+{/* <div className='requirements'> Must be valid email address</div> */}
 
 <label for="Password"><b>Password</b></label>
-<input type="text"  name="Password" required></input>
+<input type="Password"  name="Password" required></input>
 </form>
 
 </div>
 
 
-<div class="clearfix">
-<button type="submit" className='button-sign'>Sign Up</button>
+<div class={s.clearfix}>
+<button type="submit" tabindex="1" className={s.button}>Sign Up</button>
  <p>By signing up you agree with our  <a href='#'>Terms of Conditions</a> and Privacy Policy rules</p>
 </div>
 
 
     </div>
 
-    <div className='Sing_Up_Form picture'>
+    <div className={s.picture}>
     <img title="my-img" src={imageSrc} alt="my-img"/>
     </div>
 

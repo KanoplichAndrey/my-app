@@ -1,0 +1,11 @@
+.Pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #FEFEFE;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 145px 100px 145px;
+}
+/*# sourceMappingURL=Pricing.module.css.map */

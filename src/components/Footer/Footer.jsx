@@ -1,6 +1,15 @@
 import React from 'react';
-const Header = () => {
-    return  <nav className='Header'>
+
+import imageSrc9 from '../../img/icon-Facebook.svg';
+import imageSrc10 from '../../img/icon-Twitter.svg';
+import imageSrc11 from '../../img/icon-linkedin.svg';
+import imageSrc12 from '../../img/icon-Google.svg';
+
+import s from './Footer.module.css'
+
+const Footer = () => {
+    return  <div className={s.Footer}>
+    <div className={s.wrap} >
         <div className='logo'>
         <svg width="125" height="55" viewBox="0 0 125 55" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1_1389)">
@@ -15,16 +24,37 @@ const Header = () => {
         </defs>
         </svg>
         </div>
-        <div className='nav-menu'>
-          <ul>
-            <li><a href='#'>Home</a></li>
-            <li><a href='#'>Features</a></li>
-            <li><a href='#'>Pricing</a></li>
-            <li><a href='#'>About Us</a></li>
-          </ul>
-        </div>
-        <button className='button'>Sign Up</button>
-      </nav>
-}
 
-export default Header;
+      
+        <div className={s.icon}>
+        <img title="my-img" src={imageSrc9} alt="my-img"/>
+        <img title="my-img" src={imageSrc10} alt="my-img"/>
+        <img title="my-img" src={imageSrc11} alt="my-img"/>
+        <img title="my-img" src={imageSrc12} alt="my-img"/>
+        </div>
+   
+       <div>
+       
+       <form method="" action="">
+      <input type="text"  placeholder="   Subscribe" ></input>
+        </form>
+      </div>
+      
+      </div>
+        <div className={s.info}>
+          
+         <span>Privacy Policy</span>
+         <span>Terms of Conditions</span>
+         <span>Legal</span>
+         <span>Help</span>
+          
+        </div>
+        <div><p>© 2020 All rights reserved</p></div>
+      </div>
+     
+  
+      
+
+};
+
+export default Footer;

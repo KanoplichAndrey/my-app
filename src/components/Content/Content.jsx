@@ -1,7 +1,7 @@
 import React from 'react';
-
+import s from './Content.module.css';
 const Content = () => {
-    return   <div className='Content'>
+    return   <div className={s.Content}>
     <div>
       <p>Long Headline Sample</p>
     </div> 

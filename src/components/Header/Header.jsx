@@ -1,16 +1,14 @@
 import React from 'react';
+import s from './Header.module.css';
 
-import imageSrc9 from '../icon-Facebook.svg';
-import imageSrc10 from '../icon-Twitter.svg';
-import imageSrc11 from '../icon-linkedin.svg';
-import imageSrc12 from '../icon-Google.svg';
+const Header = () => {
 
-
-
-const Footer = () => {
-    return  <div className='Footer'>
-    <div className='footer-wrap' >
-        <div className='logo'>
+    // function button(){
+    //   console.log('gfhghgfhgfhfghgfhfghgfhgfhf')
+    // }
+  
+    return  <nav className={s.Header}>
+        <div className={s.logo}>
         <svg width="125" height="55" viewBox="0 0 125 55" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1_1389)">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M46.729 13.75L46.729 55L29.2056 34.375L11.6823 13.75L46.729 13.75Z" fill="#D2D2D2"/>
@@ -24,33 +22,19 @@ const Footer = () => {
         </defs>
         </svg>
         </div>
-
-      {/* <div className='footer-content'> */}
-        <div className='footer-icon-wrap'>
-        <img title="my-img" src={imageSrc9} alt="my-img"/>
-        <img title="my-img" src={imageSrc10} alt="my-img"/>
-        <img title="my-img" src={imageSrc11} alt="my-img"/>
-        <img title="my-img" src={imageSrc12} alt="my-img"/>
+        <div className={s.menu}>
+          <ul >
+            <li ><a href='#'>Home</a></li>
+            <li><a href='#'>Features</a></li>
+            <li><a href='#'>Pricing</a></li>
+            <li><a href='#'>About Us</a></li>
+          </ul>
         </div>
-    {/* </div>  */}
-       <div>
-      <input type="text" placeholder="   Subscribe" ></input>
-      </div>
-      </div>
-        <div className='info'>
-          
-         <span>Privacy Policy</span>
-         <span>Terms of Conditions</span>
-         <span>Legal</span>
-         <span>Help</span>
-          
+        <div>
+        <span><a href='#'>Sign In</a></span>
+        <button  className={s.button} >Sign Up</button>
         </div>
-        <div><p>© 2020 All rights reserved</p></div>
-      </div>
-     
-  
-      
+      </nav>
+}
 
-};
-
-export default Footer;
+export default Header;

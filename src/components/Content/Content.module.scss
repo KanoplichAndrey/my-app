@@ -1,0 +1,108 @@
+.Content {
+
+    margin-top: 100px;
+  
+    div:nth-child(1) {
+      margin-bottom: 24px;
+  
+      p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        letter-spacing: -0.433333px;
+        color: #27A759;
+      }
+    }
+  
+    div {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    div:nth-child(2) {
+      margin-bottom: 21px;
+  
+      h1 {
+        width: 620px;
+        height: 151px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 74px;
+        color: #1A1A1A;
+        text-align: center;
+      }
+    }
+  
+  
+  
+    div:nth-child(3) {
+      margin-bottom: 24px;
+  
+      p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.361111px;
+        color: #767676;
+        width: 468px;
+        height: 60px;
+  
+      }
+    }
+  
+    ul {
+      width: 168px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      position: relative;
+  
+      li {
+        &:after {
+          content: "→";
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -0.325px;
+          color: #27A759;
+          position: absolute;
+          left: 104px;
+          top: 10px;
+  
+  
+        }
+  
+        a {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -0.325px;
+          text-decoration-line: underline;
+          color: #27A759;
+  
+        }
+      }
+    }
+  
+    div:nth-child(4) {
+      margin-bottom: 33px;
+  
+    }
+  
+  }

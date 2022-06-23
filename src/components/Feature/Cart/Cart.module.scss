@@ -1,0 +1,72 @@
+
+
+      .Cart {
+        width: 279px;
+        height: 205px;
+        margin-bottom: 30px;
+        border: 2px solid rgba(231, 235, 252, 1);
+        border-radius: 15px;
+        padding: 24px;
+  
+        div:nth-child(1) p {
+          margin-bottom: 13px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          letter-spacing: -0.361111px;
+          color: #1A1A1A;
+  
+        }
+  
+        div:nth-child(2) p {
+          margin-bottom: 16px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: -0.288889px;
+          color: #767676;
+  
+        }
+  
+        ul {
+          width: 110px;
+          height: 26px;
+          display: flex;
+          align-items: center;
+          position: relative;
+  
+          li {
+            &:after {
+              content: ">";
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 28px;
+              text-align: center;
+              letter-spacing: -0.325px;
+              color: #27A759;
+              position: absolute;
+              left: 93px;
+            }
+  
+            a {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 26px;
+              letter-spacing: -0.288889px;
+              color: #27A759;
+  
+            }
+          }
+        }
+      }
+    
+  
+    

@@ -1,0 +1,114 @@
+.CTA {
+    background: #E5E5E5;
+    
+    .CTAWrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 100px;
+      padding-left: 145px;
+      padding-right: 145px;
+      padding-bottom: 50px;
+  
+      label:nth-child(1) p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 62px;
+        letter-spacing: -0.938889px;
+        color: #1A1A1A;
+        margin-right: 70px;
+      }
+  
+      div:nth-child(2) input{
+        border: 1px solid #D2D2D2;
+        background: #E5E5E5;
+        border-radius: 6px;
+        width: 273px;
+        height: 56px;
+  
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.288889px;
+        padding-left: 18px;
+        color: #767676;
+      }
+      
+
+      }
+      .button {
+        background: #27A759;
+        border-radius: 6px;
+        border: solid 1px #27A759;
+        width: 114px;
+        height: 56px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.325px;
+        color: #FEFEFE;
+        cursor: pointer;
+  
+  
+      }
+
+        .button:hover{
+            background:  rgb(11, 68, 33) ;
+     
+  
+    }
+        
+    .line {
+      border: solid 1px #D2D2D2;
+      width: 1110px;
+      height: 2px;
+      background: #D2D2D2;
+      margin: 0 auto;
+  
+    }
+  
+    .brandWrap {
+      display: flex;
+      padding-top: 50px;
+      width: 942px;
+      height: 44px;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding-bottom: 144px;
+  
+      div:nth-child(1) img {
+        vertical-align: -15px
+      }
+  
+      div:nth-child(2) img {
+        vertical-align: -24px
+      }
+  
+      div:nth-child(3) img {
+        vertical-align: -28px
+      }
+  
+      div:nth-child(4) img {
+        vertical-align: -15px
+      }
+  
+      div:nth-child(5) img {
+        vertical-align: -15px
+      }
+  
+      div:nth-child(6) img {
+        vertical-align: -15px
+      }
+  
+      div:nth-child(7) img {
+        vertical-align: -15px
+      }
+    }
+  
+  }
