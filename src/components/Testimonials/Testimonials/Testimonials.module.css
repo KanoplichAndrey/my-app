@@ -15,7 +15,7 @@
   margin-bottom: 50px;
 }
 
-.Testimonials .wrap {
+.Testimonials .wrapppp {
   width: 1200px;
   height: 350px;
   display: -webkit-box;
@@ -30,7 +30,7 @@
   position: relative;
 }
 
-.Testimonials .wrap .circl2 {
+.Testimonials .wrapppp .circl2 {
   border-radius: 50%;
   background-color: #EBEBEB;
   position: absolute;
@@ -50,7 +50,7 @@
           justify-content: center;
 }
 
-.Testimonials .wrap .circl1 {
+.Testimonials .wrapppp .circl1 {
   border-radius: 50%;
   background-color: #EBEBEB;
   position: absolute;

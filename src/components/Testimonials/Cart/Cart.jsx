@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Cart.module.css';
+import IconePerson from '../../CartTestemonials/IconePerson';
 
 const Cart = (props) => {
   return (
@@ -11,9 +12,9 @@ const Cart = (props) => {
       </div>
 
       <div className={s.wrapPerson} >
-        <div className={s.iconPerson}>
-
-        </div>
+        {/* <div className={s.iconPerson}> */}
+        <IconePerson />
+        {/* </div> */}
         <div className={s.infoPerson}>
           <p>{props.infoPerson}</p>
           <p>{props.profession}</p>
