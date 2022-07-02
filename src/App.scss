@@ -28,3 +28,109 @@
 }
 
 
+// .slick-prev:before, .slick-next:before {
+//   content: '\2190';
+//   font-family: 'slick';
+//   font-size: 20px;
+//   line-height: 1;
+//   opacity: .75;
+//   color: #b51d1d;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// .slick-prev, .slick-next {
+//   font-size: 0;
+//   line-height: 0;
+//   position: absolute;
+//   top: 50%;
+//   display: block;
+//   width: 20px;
+//   height: 20px;
+//   padding: 0;
+//   transform: translate(0, -50%);
+//   cursor: pointer;
+//   color: red;
+//   border: none;
+//   outline: none;
+//   background: green;
+
+// }
+
+
+
+// .slid{
+//   position: relative;
+
+// }
+// .slid .slick-arrow{
+//   position: absolute;
+//   top: 50%;
+//   margin: -15px 0 0 0;
+//   z-index: 2;
+//   font-size: 0;
+//   width: 40px;
+//   height: 40px;
+// }
+
+// .slid .slick-arrow.slick-prew{
+//   left: 0;
+//   background: url('../../../img/Arrow_Forward.svg') 0 0 / 100% no-repeat;
+// }
+// .slick-prev:before {
+//   content: '\2190';
+//   font-family: 'slick';
+//   font-size: 20px;
+//   line-height: 1;
+  
+//   color: rgb(190, 18, 18);
+  
+// }
+
+// .app-wrapper button:hover {
+//   background: #9c0b2f;
+//   cursor: pointer;
+// }
+
+// .slick-next {
+//   border-radius: 50%;
+//   background-color: #EBEBEB;
+//   position: absolute;
+//   width: 65px;
+//   height: 65px;
+//   cursor: pointer;
+//   left: 1187px;
+//   top: 81px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: red;
+
+
+// }
+// .slick-next {
+// background-color: #EBEBEB;
+//     position: absolute;
+//     width: 65px;
+//     height: 65px;
+//     cursor: pointer;
+//     left: 1187px;
+//     top: 81px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: red;
+//     background: url('./img/Arrow_Forward.svg') 0 0 / 100% no-repeat;
+// }
+
+// .slick-next:before {
+//   content: '';
+//   font-family: '';
+//   font-size: 65px;
+//   line-height: 1;
+//   opacity: .75;
+//   color: rgb(39, 35, 35);
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+  
+// }

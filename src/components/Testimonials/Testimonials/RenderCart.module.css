@@ -1,0 +1,55 @@
+.wrapppp {
+  width: 1200px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.wrapppp .circl2 {
+  border-radius: 50%;
+  background-color: #EBEBEB;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  left: 1187px;
+  top: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapppp .circl1 {
+  border-radius: 50%;
+  background-color: #ca1717;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  left: -48px;
+  top: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=RenderCart.module.css.map */

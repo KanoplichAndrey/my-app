@@ -4,6 +4,7 @@ import IconePerson from '../../CartTestemonials/IconePerson';
 
 const Cart = (props) => {
   return (
+    
     <div className={s.cart}>
       <div className={s.ContentCart}>
         <p>
@@ -20,6 +21,7 @@ const Cart = (props) => {
           <p>{props.profession}</p>
         </div>
       </div>
+   
     </div>
   )
 

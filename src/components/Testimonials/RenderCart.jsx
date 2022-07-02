@@ -1,24 +1,65 @@
-// import React from 'react';
-// import Cart from './Cart/Cart';
-// // import s from'./Render.module.css';
+import React from 'react';
+import Cart from './Cart/Cart';
+// const array = [
+//   {
+//     ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+//     infoPerson: 'Alexander F ',
+//     profession: 'IT Admin at Digital Group',
+//   }, {
+//     ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+//     infoPerson: 'Robert B ',
+//     profession: 'Designer at Digital Group',
+//   }, {
+//     ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+//     infoPerson: 'Vadim Z ',
+//     profession: 'Executive at Digital Group',
+//   },
+//   {
+//     ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+//     infoPerson: 'Alexander F ',
+//     profession: 'IT Admin at Digital Group',
+//   }, {
+//     ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+//     infoPerson: 'Robert B ',
+//     profession: 'Designer at Digital Group',
+//   }, {
+//     ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+//     infoPerson: 'Vadim Z ',
+//     profession: 'Executive at Digital Group',
+//   },
+// ]
 
-
-
-// const RenderCart = () => {
-// 	const arr = [];
+ const RenderCart = () => {
+	const array = [
+    {
+      ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+      infoPerson: 'Alexander F ',
+      profession: 'IT Admin at Digital Group',
+    }, {
+      ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+      infoPerson: 'Robert B ',
+      profession: 'Designer at Digital Group',
+    }, {
+      ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
+      infoPerson: 'Vadim Z ',
+      profession: 'Executive at Digital Group',
+    },
+    
+  ]
+	const res = array.map(function(item, index) {
+		return <Cart {...item} key={index}/>
+	});
 	
-// 	for (let i = 0; i <= 2; i++) {
-// 		arr.push(<Cart>{i}</Cart>);
-// 	}
-	
-// 	return <div className={s.cart}>{arr}</div>
-	
-		
-	
+	return <>
+		{res}
+ 
+	</>;
+  // console.log(res);
+} 
 
-// 	}
+ 	
 
 
 
 
-// export default RenderCart;
+export default RenderCart;

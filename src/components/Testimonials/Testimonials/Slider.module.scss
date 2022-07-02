@@ -1,0 +1,113 @@
+ /* import imageSrc7 from '../../../img/Arrow_back.svg'; */
+ /* import imageSrc8 from '../../../img/Arrow_Forward.svg'; */
+
+//  .cart {
+//     width: 350px;
+//     height: 350px;
+//     border: 2px solid #D2D2D2;
+//     border-radius: 15px;
+
+//     .ContentCart {
+//       padding-top: 25px;
+//       padding-left: 25px;
+//       padding-right: 25px;
+//       // padding-left: 0px;
+//       // padding-right: 0px;
+//       padding-bottom: 69px;
+
+//       p {
+//         font-family: 'Inter';
+//         font-style: normal;
+//         font-weight: 600;
+//         font-size: 24px;
+//         line-height: 34px;
+//         letter-spacing: -0.433333px;
+//         color: #767676;
+//       }
+
+//     }
+
+//     .wrapPerson {
+//       padding-left: 25px;
+//       display: flex;
+
+//       .iconPerson {
+//         background: url('../../../img/person.svg') no-repeat center;
+//         width: 56px;
+//         height: 56px;
+//         background-color: #E7EBFC;
+//         border-radius: 50%;
+//         margin-right: 18px;
+//       }
+
+//       .infoPerson :nth-child(1) {
+
+//         font-family: 'Inter';
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 20px;
+//         line-height: 30px;
+//         letter-spacing: -0.361111px;
+//         color: #1A1A1A;
+
+
+//       }
+
+//       .infoPerson p:nth-child(2) {
+
+//         font-family: 'Inter';
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 16px;
+//         line-height: 26px;
+//         letter-spacing: -0.288889px;
+//         color: #767676;
+
+//       }
+//     }
+
+//   }
+
+
+.slick-next {
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    left: 1187px;
+    top: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+  
+  
+  }
+  .slick-next {
+  background-color: #EBEBEB;
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      cursor: pointer;
+      left: 1187px;
+      top: 81px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: red;
+      background: url('../../../img/Arrow_Forward.svg') 0 0 / 100% no-repeat;
+  }
+  
+  .slick-next:before {
+    content: '';
+    font-family: '';
+    font-size: 65px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(39, 35, 35);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
