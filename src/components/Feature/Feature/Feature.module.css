@@ -11,7 +11,10 @@
   position: relative;
 }
 
-.Feature .dot.dot1, .Feature .dot.dot2, .Feature .dot.dot3, .Feature .dot.dot4 {
+.Feature .dot.dot1,
+.Feature .dot.dot2,
+.Feature .dot.dot3,
+.Feature .dot.dot4 {
   position: absolute;
   background: #D0D9FA;
   width: 6px;

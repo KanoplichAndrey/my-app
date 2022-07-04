@@ -7,6 +7,11 @@
   padding: 24px;
 }
 
+.Cart:hover {
+  background: transparent;
+  border: 2px solid #27A759;
+}
+
 .Cart div:nth-child(1) p {
   margin-bottom: 13px;
   font-family: 'Inter';

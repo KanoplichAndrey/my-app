@@ -1,8 +1,9 @@
 import React from 'react';
 import s from './Cart.module.css'
-import CartPrising from '../../CartPrising/SelectPeriud';
-import SelectTeammates from '../../CartPrising/SelectTeammates'
-import Button from '../../CartPrising/Button';
+import CartPrising from '../CartPrising/SelectPeriud';
+import SelectTeammates from '../CartPrising/SelectTeammates'
+import Button from '../CartPrising/Button';
+
 function Cart(props) {
   return (
 
@@ -12,11 +13,11 @@ function Cart(props) {
       <div><p>{props.nameSelect}</p></div>
       <form action="#" method="#">
         <p>
-         <CartPrising />
+          <CartPrising />
         </p>
         <div><p>{props.Teammates}</p></div>
         <p>
-          <SelectTeammates /> 
+          <SelectTeammates />
         </p>
         <Button />
       </form>

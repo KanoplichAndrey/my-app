@@ -6,6 +6,11 @@
   padding: 40px 40px 40px 40px;
 }
 
+.cartPricing:hover {
+  background: transparent;
+  border: 2px solid #27A759;
+}
+
 .cartPricing div:nth-child(1) p {
   margin-bottom: 20px;
   font-family: 'Inter';

@@ -3,6 +3,12 @@
   height: 350px;
   border: 2px solid #D2D2D2;
   border-radius: 15px;
+  margin-right: 30px;
+}
+
+.cart:hover {
+  background: transparent;
+  border: 2px solid #27A759;
 }
 
 .cart .ContentCart {

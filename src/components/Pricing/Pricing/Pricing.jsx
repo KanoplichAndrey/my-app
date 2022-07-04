@@ -1,12 +1,15 @@
 import React from 'react';
 import s from './Pricing.module.css'
-import Cart from '../Cart/Cart';
+import RenderCart from '../RenderCart/RenderCart';
 const Pricing = () => {
   return <div className={s.Pricing}>
-    <Cart tarifplan='Starter' prise='$49' prisePeriud='month' nameSelect='Period'  Teammates='Teammates'  />
+
+    <RenderCart />
+
+    {/* <Cart tarifplan='Starter' prise='$49' prisePeriud='month' nameSelect='Period'  Teammates='Teammates'  />
     <Cart tarifplan='Premium' prise='$89' prisePeriud='month' nameSelect='Period'  Teammates='Teammates'   />
     <Cart tarifplan='Unlimited' prise='$199' prisePeriud='month' nameSelect='Period'  Teammates='Teammates'  />
-
+     */}
   </div>
 };
 

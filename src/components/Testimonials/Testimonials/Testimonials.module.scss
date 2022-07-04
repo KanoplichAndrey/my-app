@@ -1,62 +1,62 @@
 .Testimonials {
-    padding-bottom: 100px;
-  
-    div>h2 {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 52px;
-      line-height: 62px;
-      text-align: center;
-      letter-spacing: -0.938889px;
-      color: #1A1A1A;
-      padding-top: 100px;
-      margin-bottom: 50px;
-  
-    }
-  
-    .wrapppp {
-      width: 1200px;
-      height: 350px;
-      display: flex;
-      justify-content: space-evenly;
-      margin: 0 auto;
-      padding-left: 15px;
-      padding-right: 10px;
-      position: relative;
-  
-      .circl2 {
-        border-radius: 50%;
-        background-color: #EBEBEB;
-        position: absolute;
-        width: 65px;
-        height: 65px;
-        cursor: pointer;
-        left: 1187px;
-        top: 81px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-  
-      }
-  
-      .circl1 {
-  
-        border-radius: 50%;
-        background-color: #EBEBEB;
-        position: absolute;
-        width: 65px;
-        height: 65px;
-        cursor: pointer;
-        left: -48px;
-        top: 81px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-  
-      }
-  
-      
-  
-    }
+  padding-bottom: 100px;
+  height: 662px;
+  div>h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: -0.938889px;
+    color: #1A1A1A;
+    padding-top: 100px;
+    margin-bottom: 50px;
+
   }
+
+  .wrapppp {
+    width: 1200px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 10px;
+    position: relative;
+
+    .circl2 {
+      border-radius: 50%;
+      background-color: #EBEBEB;
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      cursor: pointer;
+      left: 1187px;
+      top: 81px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .circl1 {
+
+      border-radius: 50%;
+      background-color: #EBEBEB;
+      position: absolute;
+      width: 65px;
+      height: 65px;
+      cursor: pointer;
+      left: -48px;
+      top: 81px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+
+
+  }
+}

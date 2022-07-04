@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './Cart.module.css';
-import IconePerson from '../../CartTestemonials/IconePerson';
+import IconePerson from '../CartTestemonials/IconePerson';
+// import { Link } from 'react-router-dom';
 
 const Cart = (props) => {
   return (
-    
+
     <div className={s.cart}>
       <div className={s.ContentCart}>
         <p>
@@ -21,7 +22,7 @@ const Cart = (props) => {
           <p>{props.profession}</p>
         </div>
       </div>
-   
+
     </div>
   )
 
