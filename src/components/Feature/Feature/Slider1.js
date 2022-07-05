@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Cart from "../Cart/Cart";
-// import s from "./Slider1.module.css";
 export const VerticalSwipeToSlide  = ({array}) => {
    
     const settings = {
@@ -20,10 +19,6 @@ export const VerticalSwipeToSlide  = ({array}) => {
     };
 
 
-    
-
-
-
         return (
             <div className={'Slider1'}>
 
@@ -33,8 +28,6 @@ export const VerticalSwipeToSlide  = ({array}) => {
                             <Cart {...item} key={i}/>
                         )
                     }
-
-
                 </Slider>
             </div>
         );
