@@ -125,7 +125,7 @@
   cursor: pointer;
 }
 
-.SingUpForm .FormWrap .clearfix button:hover {
+.SingUpForm .FormWrap .clearfix .button:hover {
   background: #0b4421;
 }
 

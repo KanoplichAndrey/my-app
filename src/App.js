@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials/Testimonials/Testimonials';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 // import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
-import Form from './components/Use/Form';
+// import Form from './components/Use/Form'
 
 
 
@@ -39,7 +39,7 @@ function App() {
         <CTA />
         <Testimonials />
         <Footer />
-        {/* <Form /> */}
+        
 
       </div>
     //  </Router> 

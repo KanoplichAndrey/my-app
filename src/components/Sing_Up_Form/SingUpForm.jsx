@@ -1,6 +1,6 @@
 import React from 'react';
 import imageSrc from '../../img/picture.png';
-
+// import Form from '../Use/Form';
 import s from './Sing_Up_Form.module.css'
 
 const SingUpForm = () => {
@@ -19,12 +19,12 @@ const SingUpForm = () => {
 
           <label for="email"><b>email</b></label>
           <input type="email" name="email" required></input>
-          {/* <div className='requirements'> Must be valid email address</div> */}
+          
 
           <label for="Password"><b>Password</b></label>
           <input type="Password" name="Password" required></input>
         </form>
-
+        {/* <Form /> */}
       </div>
 
 
