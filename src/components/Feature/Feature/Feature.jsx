@@ -1,35 +1,35 @@
 import React from 'react';
 import s from './Feature.module.css';
 // import Cart from '../Cart/Cart'
-// import RenderCart from '../FeatureRenderCart/RenderCart';
-import {VerticalSwipeToSlide} from './Slider1';
+import RenderCart from '../FeatureRenderCart/RenderCart';
+// import {VerticalSwipeToSlide} from './Slider1';
 
-const array = [
-  {
-    contentHeader: 'First Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
-  },
-  {
-    contentHeader: 'Second Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
-  },
-  {
-    contentHeader: 'First Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
-  },{
-    contentHeader: 'First Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
-  },
+// const array = [
+//   {
+//     contentHeader: 'First Feature ',
+//     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
+//     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
+//     contentFooter: 'Learn More',
+//   },
+//   {
+//     contentHeader: 'Second Feature ',
+//     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
+//     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
+//     contentFooter: 'Learn More',
+//   },
+//   {
+//     contentHeader: 'First Feature ',
+//     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
+//     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
+//     contentFooter: 'Learn More',
+//   },{
+//     contentHeader: 'First Feature ',
+//     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
+//     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
+//     contentFooter: 'Learn More',
+//   },
 
-]
+// ]
 
 
 const Feature = () => {
@@ -37,22 +37,22 @@ const Feature = () => {
   return (
     
     <div className={s.Feature}>
-      {/* <div className={s.dot + ' ' + s.dot1} ></div>
+      <div className={s.dot + ' ' + s.dot1} ></div>
       <div className={s.dot + ' ' + s.dot2} ></div>
       <div className={s.dot + ' ' + s.dot3} ></div>
-      <div className={s.dot + ' ' + s.dot4} ></div> */}
+      <div className={s.dot + ' ' + s.dot4} ></div>
 
 
       <div className={s.contentSlider}>
-        <VerticalSwipeToSlide array={array}/>
-        {/* <div className={s.cart}> */}
+        
+        <div className={s.cart}>
          
           {/* <Cart contentHeader='First Feature ' contentContent='Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons' link='https://en.wikipedia.org/wiki/Tom_and_Jerry' contentFooter='Learn More' />
           <Cart contentHeader='First Feature ' contentContent='Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons' link='https://en.wikipedia.org/wiki/Tom_and_Jerry' contentFooter='Learn More' />
           <Cart contentHeader='First Feature ' contentContent='Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons' link='https://en.wikipedia.org/wiki/Tom_and_Jerry' contentFooter='Learn More' /> */}
-          {/* <RenderCart /> */}
-          
-        {/* </div> */}
+          <RenderCart />
+          {/* <VerticalSwipeToSlide array={array}/> */}
+        </div>
       </div>
  
       <div className={s.content}>

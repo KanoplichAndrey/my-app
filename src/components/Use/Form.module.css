@@ -1,0 +1,146 @@
+.SingUpForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #E5E5E5;
+}
+
+.SingUpForm .FormWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 145px;
+  padding-top: 100px;
+}
+
+.SingUpForm .FormWrap h3 {
+  width: 445px;
+  height: 104px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.758333px;
+  color: #1A1A1A;
+  margin-bottom: 16px;
+}
+
+.SingUpForm .FormWrap p {
+  width: 422px;
+  height: 52px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.288889px;
+  color: #767676;
+  margin-bottom: 60px;
+}
+
+.SingUpForm .FormWrap .SingUpWrap form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.SingUpForm .FormWrap .SingUpWrap label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #1A1A1A;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.SingUpForm .FormWrap .SingUpWrap input {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  width: 350px;
+  height: 56px;
+  padding-left: 10px;
+}
+
+.SingUpForm .FormWrap .SingUpWrap input:nth-child(2) {
+  background: url("../../img/User.svg") no-repeat center right;
+  background-position: 310px 50%;
+}
+
+.SingUpForm .FormWrap .SingUpWrap input:nth-child(4) {
+  background: url("../../img/Mail.svg") no-repeat center right;
+  background-position: 310px 50%;
+}
+
+.SingUpForm .FormWrap .SingUpWrap input:nth-child(6) {
+  background: url("../../img/Eye_off.svg") no-repeat;
+  background-position: 310px 50%;
+}
+
+.SingUpForm .FormWrap .SingUpWrap input:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.SingUpForm .FormWrap .clearfix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 435px;
+  height: 56px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.SingUpForm .FormWrap .clearfix .button {
+  width: 112px;
+  height: 56px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.325px;
+  color: #FEFEFE;
+  background: #27a759;
+  border: solid 1px #27a759;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.SingUpForm .FormWrap .clearfix button:hover {
+  background: #0b4421;
+}
+
+.SingUpForm .FormWrap .clearfix p:last-child {
+  color: #1A1A1A;
+  margin-bottom: 0px;
+  width: 303px;
+  height: 52px;
+}
+
+.SingUpForm .FormWrap .clearfix p:last-child a {
+  color: #27a759;
+}
+
+.SingUpForm .picture {
+  padding-top: 71px;
+}
+/*# sourceMappingURL=Form.module.css.map */

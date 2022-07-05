@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 
 import Content from './components/Content/Content';
@@ -11,8 +10,7 @@ import Testimonials from './components/Testimonials/Testimonials/Testimonials';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 // import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
-
-
+import Form from './components/Use/Form';
 
 
 
@@ -41,7 +39,8 @@ function App() {
         <CTA />
         <Testimonials />
         <Footer />
-        
+        {/* <Form /> */}
+
       </div>
     //  </Router> 
 

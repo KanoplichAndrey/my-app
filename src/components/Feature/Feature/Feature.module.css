@@ -11,37 +11,9 @@
   position: relative;
 }
 
-.Feature .dot.dot1,
-.Feature .dot.dot2,
-.Feature .dot.dot3,
-.Feature .dot.dot4 {
-  position: absolute;
-  background: #D0D9FA;
-  width: 6px;
-  height: 6px;
-  border-radius: 4px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.Feature .dot1 {
-  left: 70px;
-  top: 335px;
-}
-
-.Feature .dot2 {
-  left: 70px;
-  top: 345px;
-}
-
-.Feature .dot3 {
-  left: 70px;
-  top: 355px;
-}
-
-.Feature .dot4 {
-  left: 70px;
-  top: 365px;
+.Feature .Feature_Feature__7NJGY .Feature_contentSlider__361uW {
+  padding-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .Feature .contentSlider {

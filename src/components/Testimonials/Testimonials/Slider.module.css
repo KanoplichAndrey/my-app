@@ -1,3 +1,93 @@
-/* import imageSrc7 from '../../../img/Arrow_back.svg'; */
-/* import imageSrc8 from '../../../img/Arrow_Forward.svg'; */
+.slid .Slid.slick-slider.slick-initialized {
+  margin-left: 145px;
+  margin-right: 145px;
+}
+
+.slid .slick-prev, .slid .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 16% !important;
+  display: block;
+  width: 60px !important;
+  height: 60px !important;
+  padding: 0;
+  -webkit-transform: translate(0, -50%) !important;
+          transform: translate(0, -50%) !important;
+  cursor: pointer;
+  color: grey !important;
+  border: 60px;
+  outline: none;
+  background: transparent 50% !important;
+}
+
+.slid .slick-prev {
+  left: -92px !important;
+  background: url("../../../img/Arrow_back.svg") no-repeat center center/60% !important;
+  border-radius: 50%;
+  background-color: #E7EBFC !important;
+}
+
+.slid .slick-prev:hover {
+  background: url("../../../img/Arrow_backgreen.svg") no-repeat center center/60% !important;
+  background-color: #E7EBFC !important;
+}
+
+.slid .slick-next {
+  left: 1144px !important;
+  background: url("../../../img/Arrow_Forward.svg") no-repeat center center/60% !important;
+  border-radius: 50%;
+  background-color: #E7EBFC !important;
+}
+
+.slid .slick-next:hover {
+  background: url("../../../img/Arrow_Forwardgreen.svg") no-repeat center center/60% !important;
+  background-color: #E7EBFC !important;
+}
+
+.slid .slick-prev:before, .slid .slick-next:before {
+  content: "" !important;
+  font-family: "" !important;
+  font-size: 20px !important;
+  line-height: 1;
+  opacity: 100 !important;
+  color: grey !important;
+  background-color: gray !important;
+}
+
+.slid .slick-dots {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+  left: -87px !important;
+  top: 230px !important;
+  width: 10% !important;
+  height: 6% !important;
+}
+
+.slid .slick-dots :hover {
+  background: transparent !important;
+}
+
+.slid .slick-dots li.slick-active button:before {
+  color: #27A759 !important;
+}
+
+.slid .slick-dots li {
+  height: 10px !important;
+}
+
+.slid .slick-dots li button:before {
+  color: #27A759 !important;
+  font-size: 8px !important;
+}
+
+.slid .Feature_Feature__7NJGY .Feature_contentSlider__361uW {
+  padding-left: 0px !important;
+  margin-right: -46px !important;
+}
 /*# sourceMappingURL=Slider.module.css.map */

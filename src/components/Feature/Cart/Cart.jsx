@@ -15,7 +15,7 @@ const Cart = (props) => {
     <div>
       <ul>
         <li>
-          <a href={props.link}> {props.contentFooter} </a>
+          <a href={props.link}>{props.contentFooter} </a>
         </li>
       </ul>
     </div>
