@@ -5,18 +5,43 @@ import "slick-carousel/slick/slick-theme.css";
 import Cart from '../Cart/Cart';
 // import s from'./Slider.module.css';
 // import RenderCart from "../RenderCart";
-// import background from "./img/Arrow_back.svg";
+import background from "../../../img/Arrow_back.svg";
+
+const arrowSize = '50px'
+
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{display: "block", width: arrowSize, height: arrowSize }}
+            onClick={onClick}
+        />
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{display: "block", width: arrowSize, height: arrowSize }}
+            onClick={onClick}
+        />
+    );
+}
 
 export const FocusOnSelect = ({array}) => {
         const settings = {
-             dots: false,
+            dots: false,
             infinite: true,
             speed: 500,
             slidesToShow: 3,
             slidesToScroll: 1,
             arrows: true,
             variableWidth: true,
-
+            nextArrow: <SampleNextArrow />,
+            prevArrow: <SamplePrevArrow />
 };
 
         return (
@@ -27,10 +52,10 @@ export const FocusOnSelect = ({array}) => {
                         <Cart {...item} key={i}/>
                     )
                 }
-             
+
             </Slider>
            </div>
-        
+
 
         // .mySlider .slick-slider{
         // color: aqua;
