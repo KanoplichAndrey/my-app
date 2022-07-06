@@ -45,10 +45,6 @@
   padding: 0;
 }
 
-.slick-prev:hover, .slick-prev:focus {
-  background: 1;
-}
-
 .mySlider .slick-prev {
   left: -92px;
   background: url("img/Arrow_back.svg") no-repeat center center/60%;
