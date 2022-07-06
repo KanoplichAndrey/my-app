@@ -1,6 +1,6 @@
 import React from 'react';
 import imageSrc from '../../img/picture.png';
-// import Form from '../Use/Form';
+import Form from '../Use/Form';
 import s from './Sing_Up_Form.module.css'
 
 const SingUpForm = () => {
@@ -13,7 +13,7 @@ const SingUpForm = () => {
 
       <div className={s.SingUpWrap}>
 
-        <form action="">
+        {/* <form action="">
           <label for="Username"><b>Username</b></label>
           <input type="text" name="Username" ></input>
 
@@ -23,15 +23,15 @@ const SingUpForm = () => {
 
           <label for="Password"><b>Password</b></label>
           <input type="Password" name="Password" required></input>
-        </form>
-        {/* <Form /> */}
+        </form> */}
+        <Form />
       </div>
 
 
-      <div class={s.clearfix}>
-        <button type="submit" tabindex="1" className={s.button}>Sign Up</button>
+      {/* <div class={s.clearfix}>
+        <input type="submit" tabindex="1" className={s.button}>Sign Up</input>
         <p>By signing up you agree with our  <a href='#'>Terms of Conditions</a> and Privacy Policy rules</p>
-      </div>
+      </div> */}
 
 
     </div>

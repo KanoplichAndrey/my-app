@@ -1,1 +1,107 @@
-/* No CSS *//*# sourceMappingURL=Form.module.css.map */
+form .Usernam {
+  position: relative;
+}
+
+form .Usernam span {
+  position: absolute;
+  color: red;
+  top: -107px;
+  left: 75px;
+}
+
+form .email {
+  position: relative;
+}
+
+form .email span {
+  position: absolute;
+  color: red;
+  top: -107px;
+  left: 75px;
+}
+
+form .Password {
+  position: relative;
+}
+
+form .Password span {
+  position: absolute;
+  color: red;
+  top: -107px;
+  left: 75px;
+}
+
+form span {
+  position: absolute;
+  color: red;
+  top: -107px;
+  left: 75px;
+}
+
+.a {
+  background: url("../../img/User.svg") no-repeat center right;
+  background-position: 310px 50%;
+}
+
+.b {
+  background: url("../../img/Mail.svg") no-repeat center right;
+  background-position: 310px 50%;
+}
+
+.c {
+  background: url("../../img/Eye_off.svg") no-repeat;
+  background-position: 310px 50%;
+}
+
+input:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.clearfix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 435px;
+  height: 56px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.clearfix .btn {
+  width: 112px;
+  height: 56px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.325px;
+  color: #FEFEFE;
+  background: #27a759;
+  border: solid 1px #27a759;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clearfix .btn:hover {
+  background: #0b4421;
+}
+
+.clearfix p:last-child {
+  color: #1A1A1A;
+  margin-bottom: 0px;
+  width: 303px;
+  height: 52px;
+}
+
+.clearfix p:last-child a {
+  color: #27a759;
+}
+
+.picture {
+  padding-top: 71px;
+}
+/*# sourceMappingURL=Form.module.css.map */

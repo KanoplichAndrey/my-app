@@ -48,20 +48,26 @@
 .mySlider .slick-prev, .mySlider .slick-next {
   font-size: 0;
   line-height: 0;
-  position: absolute;
+  // position: absolute;
   top: 32% ;
   display: block;
   width: 60px ;
   height: 60px ;
   padding: 0;
-  transform: translate(0, -50%) ;
-  cursor: pointer;
-  color: grey ;
-  border: 60px ;
-  outline: none;
-  background: transparent 50%;
+  // transform: translate(0, -50%) ;
+  // cursor: pointer;
+  // color: grey ;
+  // border: 60px ;
+  // outline: none;
+  // background: transparent 50%;
   
   
+}
+.slick-prev:hover, .slick-prev:focus, {
+  background: ;
+}
+.slick-next:hover, .slick-next:focus{
+
 }
 .mySlider .slick-prev {
   left: -92px ;
@@ -97,34 +103,42 @@
 }
 ///////////////////////////////////////slider1//////////////////////////////////
 .Slider1 .slick-dots {
-  display: flex !important;
-  flex-direction: column !important;
-  left: -87px !important;
-  top: 230px !important;
-  width: 10% !important;
-  height: 6% !important;
+  // display: flex ;
+  // flex-direction: column ;
+  left: -86px ;
+  top: 230px ;
+  width: 10% ;
+  height: 6% ;
 
           & :hover{
-            background: transparent !important;
+            background: transparent ;
             
           }
 
 }
 .Slider1 .slick-dots li.slick-active button:before {
   
-  color: #27A759 !important;
+  color: #27A759 ;
+  
 }
 .Slider1 .slick-dots li {
-  height: 10px!important;
+  height: 10px;
+   position: relative;
+   display: block;
 }
 .Slider1 .slick-dots li button:before{ 
 
-  color: #27A759 !important;
-  font-size: 8px !important;
+  color: #27A759 ;
+  font-size: 6.5px;
   
 }
 .Slider1 .slick-track{
   
+}
+.slick-dots li {
+  
+
+  cursor: pointer;
 }
 
 /////////////////////////end SLIDER //////////////////////////////////////////

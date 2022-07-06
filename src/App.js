@@ -22,7 +22,7 @@ function App() {
       <div className='app-wrapper'>
 
         
-<Header />
+        <Header />
         {/* <Routes> */}
          
           {/* <Route path='/Home' element={<Dialog />} /> */}

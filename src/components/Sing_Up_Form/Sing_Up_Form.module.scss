@@ -37,7 +37,7 @@
 
     .SingUpWrap {
 
-      form {
+     form {
         display: flex;
         flex-direction: column;
       }
@@ -52,9 +52,10 @@
         text-transform: uppercase;
         color: #1A1A1A;
         margin-bottom: 10px;
-        position: relative;
+        
 
       }
+
 
       input {
         border: 1px solid #D2D2D2;
@@ -62,74 +63,12 @@
         width: 350px;
         height: 56px;
         // background-color: #E5E5E5;
-        padding-left: 10px
-      }
-
-      input:nth-child(2) {
-        background: url('../../img/User.svg') no-repeat center right;
-        background-position: 310px 50%;
-
-      }
-
-      input:nth-child(4) {
-        background: url('../../img/Mail.svg') no-repeat center right;
-        background-position: 310px 50%;
-
-      }
-
-      input:nth-child(6) {
-        background: url('../../img/Eye_off.svg') no-repeat;
-        background-position: 310px 50%;
-      }
-
-      input:not(:last-child) {
-        margin-bottom: 24px;
-
-
+        padding-left: 10px;
+      
       }
 
     }
-
-    .clearfix {
-      display: flex;
-      width: 435px;
-      height: 56px;
-      justify-content: space-between;
-      margin-top: 60px;
-
-      .button {
-        width: 112px;
-        height: 56px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 28px;
-        text-align: center;
-        letter-spacing: -0.325px;
-        color: #FEFEFE;
-        background: rgba(39, 167, 89, 1);
-        border: solid 1px rgba(39, 167, 89, 1);
-        border-radius: 6px;
-        cursor: pointer;
-      }
-
-      .button:hover {
-        background: rgb(11, 68, 33);
-      }
-
-      p:last-child {
-        color: #1A1A1A;
-        margin-bottom: 0px;
-        width: 303px;
-        height: 52px;
-      }
-
-      p:last-child a {
-        color: rgba(39, 167, 89, 1);
-      }
-    }
-
+  
 
   }
 
