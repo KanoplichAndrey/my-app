@@ -1,6 +1,4 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
-
 
 
 
@@ -13,28 +11,32 @@ const Menu = () => {
         'Pricing',
         'About Us',
     ]
-    // const setActive = ({ isActive }) => ({ color: isActive ? '#27a759' : '' });
+    
+   
+ 
     return (
         <ul>
+ {/* <NavLink to= {'/' + value}>{value}  </NavLink> */}
 
             {menuItems.map((value, index) => {
-                return <li key={index}> <NavLink to lable={value} /></li>
-
+                return <li   key={index}><NavLink to lable={value } /> </li>
+                
             })}
 
         </ul>
     )
-    // }
+   
 }
+
 
 const NavLink = (props) => {
 
-    const url = '/' + props.lable
-
+    const url  = '#' + props.lable 
+    
     return (
 
-        <a href={url}> {props.lable}</a>
-
+         <a  href={url}  > {props.lable}</a>
+    
     )
 
 }

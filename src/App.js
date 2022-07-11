@@ -9,42 +9,44 @@ import CTA from './components/CTA/CTA';
 import Testimonials from './components/Testimonials/Testimonials/Testimonials';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-// import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
-// import Form from './components/Use/Form'
-
-
 
 
 
 function App() {
+
   return (
     // <Router>
-      <div className='app-wrapper'>
 
-        
-        <Header />
+      <div className='app-wrapper' id='Home'>
+
+        <Header />  
+ 
         {/* <Routes> */}
-         
-          {/* <Route path='/Home' element={<Dialog />} /> */}
-          {/* <Route path='/Features' element={<Feature />} />
-          <Route path='/Sign%20In' element={<Sing_Up_Form />} />
-          <Route path='/Pricing' element={<Pricing />} /> */}
-
-        {/* </Routes> */}
+          {/* <Route path='/' element={<Header />}/>  */}
+          {/* <Route  path='/Features' element={<Feature />} />
+          <Route path='SingUpForm' element={<SingUpForm />} />
+          <Route path='/Pricing' element={<Pricing />} /> 
+        </Routes> */}
+       
          
         <Content />
+        
         <Feature />
-        <SingUpForm />
+        <SingUpForm  />
         <Pricing />
         <CTA />
-        <Testimonials />
+        <Testimonials/>
         <Footer />
-        
-
+         
       </div>
-    //  </Router> 
-
+        // </Router>  
+      
   );
+
 }
 
 export default App;
+
+
+
+

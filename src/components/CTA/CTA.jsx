@@ -1,10 +1,6 @@
 import React from 'react';
 import s from './CTA.module.css';
 
-// import Dia from '../Dia/Dia';
-// import Dialog from '../Dialog/Dialog';
-
-
 import imageSrc1 from '../../img/philips.svg';
 import imageSrc2 from '../../img/logitech.svg';
 import imageSrc3 from '../../img/amazon.svg';

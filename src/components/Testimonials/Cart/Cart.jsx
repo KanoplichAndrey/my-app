@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Cart.module.css';
 import IconePerson from '../CartTestemonials/IconePerson';
-// import { Link } from 'react-router-dom';
+
 
 const Cart = (props) => {
   return (

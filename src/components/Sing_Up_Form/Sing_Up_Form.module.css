@@ -33,9 +33,8 @@
   margin-bottom: 16px;
 }
 
-.SingUpForm .FormWrap p {
-  width: 422px;
-  height: 52px;
+.SingUpForm .FormWrap .titleContent {
+  width: 400px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -54,6 +53,17 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.SingUpForm .FormWrap .SingUpWrap form p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.288889px;
+  color: #767676;
+  margin-bottom: 60px;
 }
 
 .SingUpForm .FormWrap .SingUpWrap label {

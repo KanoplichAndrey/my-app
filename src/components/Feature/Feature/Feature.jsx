@@ -36,7 +36,7 @@ const Feature = () => {
 
   return (
 
-    <div className={s.Feature}>
+    <div className={s.Feature} id='Features'>
       {/* <div className={s.dot + ' ' + s.dot1} ></div>
       <div className={s.dot + ' ' + s.dot2} ></div>
       <div className={s.dot + ' ' + s.dot3} ></div>

@@ -1,5 +1,5 @@
-import React from 'react';
-import Cart from '../Cart/Cart';
+// import React from 'react';
+// import Cart from '../Cart/Cart';
 // const array = [
 //   {
 //     ContentCart: 'Nowadays, it isn’t great uncommon to see lenders rapidly adopting a digital lending strategy to make streamline the process’’',
@@ -63,4 +63,4 @@ import Cart from '../Cart/Cart';
 
 
 
-export default RenderCart;
+// export default RenderCart;

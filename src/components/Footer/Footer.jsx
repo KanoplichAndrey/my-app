@@ -8,8 +8,12 @@ import imageSrc13 from '../../img/logo.svg';
 
 import s from './Footer.module.css'
 
+
 const Footer = () => {
-  return <div className={s.Footer}>
+
+ 
+  return <div className={s.Footer} id='About Us'>
+    
     <div className={s.wrap} >
       <div className='logo'>
         <img title="my-img" src={imageSrc13} alt="my-img" />

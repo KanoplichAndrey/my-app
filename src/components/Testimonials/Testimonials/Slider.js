@@ -5,12 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 import Cart from '../Cart/Cart';
 // import s from'./Slider.module.css';
 // import RenderCart from "../RenderCart";
-import background from "../../../img/Arrow_back.svg";
+// import background from "../../../img/Arrow_back.svg";
 
 const arrowSize = '50px'
 
 function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const { className,  onClick } = props;
     return (
         <div
             className={className}
@@ -21,7 +21,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const { className,  onClick } = props;
     return (
         <div
             className={className}

@@ -22,9 +22,9 @@
       margin-bottom: 16px;
     }
 
-    & p {
-      width: 422px;
-      height: 52px;
+    .titleContent {
+      width: 400px;
+      // height: 52px;
       font-family: 'Inter';
       font-style: normal;
       font-weight: 400;
@@ -35,11 +35,26 @@
       margin-bottom: 60px;
     }
 
+    
+
     .SingUpWrap {
 
      form {
         display: flex;
         flex-direction: column;
+        p {
+          // width: 400px;
+          // height: 52px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: -0.288889px;
+          color: #767676;
+          margin-bottom: 60px;
+        }
+
       }
 
       label {
@@ -67,6 +82,25 @@
       
       }
 
+      // input:valid:not(:placeholder-shown) {
+      //   border-color: rgb(41, 8, 189);
+      // }
+      
+      // input:invalid:not(:placeholder-shown) {
+      //   border-color: red;
+      // }
+      // input:invalid:not(:placeholder-shown) + .form__error {
+      //   display: block;
+      // } 
+
+
+
+
+
+
+
+
+
     }
   
 
@@ -76,3 +110,4 @@
     padding-top: 71px;
   }
 }
+

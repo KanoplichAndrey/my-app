@@ -9,8 +9,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 
 
 }
@@ -34,7 +37,10 @@ span a {
   color: #1A1A1A;
   text-decoration: none;
 
+  
+
 }
+
 
 .menu ul {
   display: flex;
@@ -42,15 +48,27 @@ span a {
 }
 
 .menu ul li a {
+  // margin-left: -18px;
+  // margin-right: 27px;
   font-family: 'Inter';
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.288889px;
   color: #1A1A1A;
+  
   text-decoration: none;
+  
 }
+.menu ul li a:hover{
+    color: #27a759; 
+    text-decoration: underline 2px;
+  }
 
+a:hover{
+  color: #27a759; 
+  text-decoration: underline 2px;
+}
 .button {
   background-color: rgba(39, 167, 89, 1);
   width: 89px;
