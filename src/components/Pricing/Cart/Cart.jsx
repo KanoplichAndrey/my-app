@@ -2,8 +2,8 @@ import React from 'react';
 import s from './Cart.module.css'
 import CartPrising from '../CartPrising/SelectPeriud';
 import SelectTeammates from '../CartPrising/SelectTeammates'
-import Button from '../CartPrising/Button';
-
+// import Button from '../CartPrising/Button';
+import Button from '../../button/Button';
 function Cart(props) {
   return (
 
@@ -19,7 +19,8 @@ function Cart(props) {
         <p>
           <SelectTeammates />
         </p>
-        <Button />
+        <Button text={'Choose Plan'} customClass={s.input}/> 
+        {/* <Button /> */}
       </form>
     </div>
 

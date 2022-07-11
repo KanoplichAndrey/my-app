@@ -46,23 +46,13 @@
 }
 
 .CTA .button {
-  background: #27A759;
-  border-radius: 6px;
-  border: solid 1px #27A759;
   width: 114px;
   height: 56px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.325px;
-  color: #FEFEFE;
-  cursor: pointer;
-}
-
-.CTA .button:hover {
-  background: #0b4421;
 }
 
 .CTA .line {

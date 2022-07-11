@@ -1,7 +1,6 @@
 import React from 'react';
 import s from './Content.module.css';
-
-import imageSrc1 from '../../img/imgphone.svg'
+import imgphone from '../../img/imgphone.svg'
 const Content = () => {
   return <div className={s.Content}>
     <div>
@@ -21,11 +20,9 @@ const Content = () => {
       </ul>
     </div>
     <div>
-
-      <img title="my-img" src={imageSrc1} alt="my-img" />
+      <img title="my-img" src={imgphone} alt="my-img" />
     </div>
   </div>
-
 };
 
 export default Content;

@@ -14,10 +14,10 @@
 .app-wrapper {
   margin: 0 auto;
   width: 1400px;
- button:hover {
-    background:  rgb(18, 112, 54);
-    cursor: pointer;
-  }
+//  button:hover {
+//     background:  rgb(18, 112, 54);
+//     cursor: pointer;
+//   }
   // input:focus{
   //   outline: 0;
   // }
@@ -129,4 +129,21 @@
 
 html{
   scroll-behavior: smooth;
+}
+
+
+
+.default-button{
+  background-color: rgba(39, 167, 89, 1); 
+  color: #FEFEFE;
+  font-family: 'Inter';
+  border-radius: 6px;
+  border: 1px solid rgba(39, 167, 89, 1);
+  cursor: pointer;
+
+ 
+
+}
+ .default-button:hover {
+  background: rgb(11, 68, 33);
 }

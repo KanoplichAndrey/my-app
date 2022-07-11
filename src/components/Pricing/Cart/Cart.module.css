@@ -83,32 +83,19 @@
   margin-bottom: 8px;
 }
 
-.cartPricing input {
+.cartPricing .input {
   margin-top: 6px;
   border: 2px solid #27A759;
-  border-radius: 6px;
   width: 270px;
   height: 48px;
   background: #FEFEFE;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: -0.288889px;
   color: #27A759;
 }
 
-.cartPricing input:hover {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: -0.288889px;
+.cartPricing .input:hover {
   color: #FEFEFE;
   background-color: #27A759;
-  cursor: pointer;
 }
 /*# sourceMappingURL=Cart.module.css.map */

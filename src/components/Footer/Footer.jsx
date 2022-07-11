@@ -1,54 +1,41 @@
 import React from 'react';
+import iconFacebook from '../../img/icon-Facebook.svg';
+import iconTwitter from '../../img/icon-Twitter.svg';
+import iconlinkedin from '../../img/icon-linkedin.svg';
+import iconGoogle from '../../img/icon-Google.svg';
+import logo from '../../img/logo.svg';
+import s from './Footer.module.css';
 
-import imageSrc9 from '../../img/icon-Facebook.svg';
-import imageSrc10 from '../../img/icon-Twitter.svg';
-import imageSrc11 from '../../img/icon-linkedin.svg';
-import imageSrc12 from '../../img/icon-Google.svg';
-import imageSrc13 from '../../img/logo.svg';
-
-import s from './Footer.module.css'
-
+const icons= [iconFacebook,iconTwitter,iconlinkedin,iconGoogle] 
 
 const Footer = () => {
 
- 
-  return <div className={s.Footer} id='About Us'>
+  const textInfo = ['Privacy Policy','Terms of Conditions','Legal','Help']
+  const textInfo1 = ['© 2020 All rights reserved']  
     
-    <div className={s.wrap} >
-      <div className='logo'>
-        <img title="my-img" src={imageSrc13} alt="my-img" />
-      </div>
-
-
-      <div className={s.icon}>
-        <img title="my-img" src={imageSrc9} alt="my-img" />
-        <img title="my-img" src={imageSrc10} alt="my-img" />
-        <img title="my-img" src={imageSrc11} alt="my-img" />
-        <img title="my-img" src={imageSrc12} alt="my-img" />
-      </div>
-
-      <div>
-
-        <form method="" action="">
-          <input type="text" placeholder="Subscribe" ></input>
-        </form>
-      </div>
-
-    </div>
-    <div className={s.info}>
-
-      <span>Privacy Policy</span>
-      <span>Terms of Conditions</span>
-      <span>Legal</span>
-      <span>Help</span>
-
-    </div>
-    <div><p>© 2020 All rights reserved</p></div>
-  </div>
-
-
-
-
+    
+  return  <div className={s.Footer} id='About Us'>
+            <div className={s.wrap} >
+                <div className='logo'>
+                    <img title="my-img" src={logo} alt="my-img" />
+                </div>
+              <div className={s.icon}>
+                {icons.map((icon)=> <img title="my-img" src={icon} alt="my-img" />)}
+              </div>
+              <div>
+                <form method="" action="">
+                  <input type="text" placeholder="Subscribe" ></input>
+                </form>
+              </div>
+            </div>
+            <div className={s.info}>
+              {textInfo.map((info)=><span>{info}</span> )}
+           
+            </div>
+            <div>
+              <span>{textInfo1}</span>
+            </div>
+          </div>
 };
 
 export default Footer;

@@ -13,11 +13,6 @@
   width: 1400px;
 }
 
-.app-wrapper button:hover {
-  background: #127036;
-  cursor: pointer;
-}
-
 .app-wrapper select:focus {
   outline: 0;
 }
@@ -111,5 +106,18 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.default-button {
+  background-color: #27a759;
+  color: #FEFEFE;
+  font-family: 'Inter';
+  border-radius: 6px;
+  border: 1px solid #27a759;
+  cursor: pointer;
+}
+
+.default-button:hover {
+  background: #0b4421;
 }
 /*# sourceMappingURL=App.css.map */

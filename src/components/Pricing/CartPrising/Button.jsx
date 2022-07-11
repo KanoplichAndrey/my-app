@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 
 
 
-const Button = () => {
+// const Button = () => {
 
-    return <input type="submit" value='Choose Plan'></input>
-}
+//     return <input type="submit" value='Choose Plan'></input>
+// }
 
-export default Button;
+// export default Button;

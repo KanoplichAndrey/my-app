@@ -43,8 +43,6 @@
         display: flex;
         flex-direction: column;
         p {
-          // width: 400px;
-          // height: 52px;
           font-family: 'Inter';
           font-style: normal;
           font-weight: 400;
@@ -77,32 +75,11 @@
         border-radius: 6px;
         width: 350px;
         height: 56px;
-        // background-color: #E5E5E5;
         padding-left: 10px;
       
       }
 
-      // input:valid:not(:placeholder-shown) {
-      //   border-color: rgb(41, 8, 189);
-      // }
-      
-      // input:invalid:not(:placeholder-shown) {
-      //   border-color: red;
-      // }
-      // input:invalid:not(:placeholder-shown) + .form__error {
-      //   display: block;
-      // } 
-
-
-
-
-
-
-
-
-
     }
-  
 
   }
 

@@ -11,11 +11,6 @@
   position: relative;
 }
 
-.Feature .Feature_Feature__7NJGY .Feature_contentSlider__361uW {
-  padding-left: 0px !important;
-  margin-right: 0px !important;
-}
-
 .Feature .contentSlider {
   padding-left: 145px;
   margin-right: 101px;
@@ -58,19 +53,11 @@
 .Feature .content .button {
   width: 149px;
   height: 48px;
-  border: solid 1px #27A759;
-  background: #27A759;
-  border-radius: 6px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
   letter-spacing: -0.288889px;
   color: #FEFEFE;
-}
-
-.Feature .content button:hover {
-  background: #0b4421;
 }
 /*# sourceMappingURL=Feature.module.css.map */

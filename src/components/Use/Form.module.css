@@ -72,22 +72,10 @@ input:not(:last-child) {
 .clearfix .btn {
   width: 112px;
   height: 56px;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  text-align: center;
   letter-spacing: -0.325px;
-  color: #FEFEFE;
-  background: #27a759;
-  border: solid 1px #27a759;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.clearfix .btn:hover {
-  background: #0b4421;
 }
 
 .clearfix p:last-child {

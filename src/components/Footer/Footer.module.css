@@ -38,7 +38,7 @@
 
 .Footer .info {
   padding-bottom: 17px;
-  padding-top: 10px;
+  padding-top: 3px;
 }
 
 .Footer .info span {
@@ -74,7 +74,7 @@
   padding-left: 5px;
 }
 
-.Footer div p {
+.Footer div span {
   padding-left: 585px;
   font-family: 'Inter';
   font-style: normal;

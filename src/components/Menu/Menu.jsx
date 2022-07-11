@@ -12,33 +12,17 @@ const Menu = () => {
         'About Us',
     ]
     
-   
- 
     return (
         <ul>
  {/* <NavLink to= {'/' + value}>{value}  </NavLink> */}
 
             {menuItems.map((value, index) => {
-                return <li   key={index}><NavLink to lable={value } /> </li>
+                return <li   key={index}><a  href= {'#' + value}>{value}  </a> </li>
                 
             })}
 
         </ul>
-    )
-   
-}
-
-
-const NavLink = (props) => {
-
-    const url  = '#' + props.lable 
-    
-    return (
-
-         <a  href={url}  > {props.lable}</a>
-    
-    )
-
+    )  
 }
 
 
