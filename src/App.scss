@@ -10,10 +10,19 @@
   font-family: 'Inter', sans-serif;
  
 }
+body{
+  width: 100%;
+}
+
 
 .app-wrapper {
   margin: 0 auto;
+  // width: 100vh;
+  // min-width: 100vh;
   width: 1400px;
+  // max-width: 1400px;
+  // min-width: 270px;
+  
 //  button:hover {
 //     background:  rgb(18, 112, 54);
 //     cursor: pointer;
@@ -24,27 +33,23 @@
   select:focus{
     outline: 0;
   }
-  
 }
 
 //////////////////////////////SLIDER//////////////////////////////////
 
-
 .mySlider .slick-slider.slick-initialized{
-
     margin-left: 145px;
     margin-right: 145px;;
-
 }
+
 .mySlider .slick-list{
-  // height: 450px !important;
-  // width: 1110px !important;
   height: 350px;
 }
 
 .mySlider .slick-track{
   height: 350px ;
 }
+
 .mySlider .slick-prev, .mySlider .slick-next {
   font-size: 0;
   line-height: 0;
@@ -53,7 +58,6 @@
   width: 60px ;
   height: 60px ;
   padding: 0;
-  
 }
 
 .mySlider .slick-prev {
@@ -63,8 +67,7 @@
   background-color: #E7EBFC ;
     &:hover{
       background: url('img/Arrow_backgreen.svg') no-repeat center center /60%  ;
-      background-color: #E7EBFC ;
-     
+      background-color: #E7EBFC ; 
     }
 }
 .mySlider .slick-next {
@@ -75,7 +78,6 @@
   &:hover{
     background: url('img/Arrow_Forwardgreen.svg') no-repeat center center /60%  ;
     background-color: #E7EBFC ;
-
   }
   
 }
@@ -96,10 +98,8 @@
   height: 6% ;
 
           & :hover{
-            background: transparent ;
-            
+             background: transparent;
           }
-
 }
 .Slider1 .slick-dots li.slick-active button:before {
   
@@ -131,8 +131,6 @@ html{
   scroll-behavior: smooth;
 }
 
-
-
 .default-button{
   background-color: rgba(39, 167, 89, 1); 
   color: #FEFEFE;
@@ -141,9 +139,15 @@ html{
   border: 1px solid rgba(39, 167, 89, 1);
   cursor: pointer;
 
- 
-
 }
  .default-button:hover {
   background: rgb(11, 68, 33);
 }
+
+// @media all and (max-width: 1400px){
+//   .app-wrapper{
+//     width: 1200px;
+//     background: #27A759;
+//     }
+
+// }

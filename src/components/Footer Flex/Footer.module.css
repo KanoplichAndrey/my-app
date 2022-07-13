@@ -1,4 +1,6 @@
 .Footer {
+  max-width: 1400px;
+  min-width: 270px;
   width: 1400px;
   height: 186px;
   background: #E5E5E5;
@@ -16,32 +18,45 @@
           justify-content: space-between;
 }
 
-.Footer .wrap .icon {
-  padding-bottom: 40px;
-  height: 24px;
+.Footer .wrap .footerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 63px;
 }
 
-.Footer .wrap .icon img:nth-child(1) {
-  margin-left: 56px;
+.Footer .wrap .footerContent .icon {
+  padding-bottom: 33px;
 }
 
-.Footer .wrap .icon img:nth-child(2),
-.Footer .wrap .icon img:nth-child(3),
-.Footer .wrap .icon img:nth-child(4) {
-  margin-left: 15px;
+.Footer .wrap .footerContent .icon img:nth-child(2),
+.Footer .wrap .footerContent .icon img:nth-child(3),
+.Footer .wrap .footerContent .icon img:nth-child(4) {
+  margin-left: 16px;
 }
 
-.Footer .wrap .icon img:nth-child(4) {
+.Footer .wrap .footerContent .icon img:nth-child(4) {
   display: inline-block;
   vertical-align: 2px;
+  margin-right: 5px;
 }
 
-.Footer .info {
+.Footer .wrap .footerContent .info {
   padding-bottom: 17px;
   padding-top: 3px;
+  margin-left: 12px;
 }
 
-.Footer .info span {
+.Footer .wrap .footerContent .info span {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -50,32 +65,28 @@
   color: #767676;
 }
 
-.Footer .info span:nth-child(1) {
+.Footer .wrap .footerContent .info span:nth-child(1) {
   letter-spacing: -0.252778px;
-  margin-right: 10px;
-  padding-left: 506px;
+  margin-right: 16px;
 }
 
-.Footer .info span:nth-child(2) {
+.Footer .wrap .footerContent .info span:nth-child(2) {
   letter-spacing: -0.152778px;
-  margin-right: 11px;
-  padding-left: 7px;
+  margin-right: 16px;
 }
 
-.Footer .info span:nth-child(3) {
+.Footer .wrap .footerContent .info span:nth-child(3) {
   letter-spacing: -0.152778px;
-  margin-right: 10px;
-  padding-left: 7px;
+  margin-right: 16px;
 }
 
-.Footer .info span:nth-child(4) {
+.Footer .wrap .footerContent .info span:nth-child(4) {
   letter-spacing: -0.152778px;
-  margin-right: 10px;
-  padding-left: 5px;
+  margin-right: 16px;
 }
 
-.Footer div span {
-  padding-left: 585px;
+.Footer .wrap .footerContent div p {
+  padding-right: 8px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -99,5 +110,6 @@ input {
   letter-spacing: -0.288889px;
   color: #767676;
   padding-left: 14px;
+  border-radius: 6px;
 }
 /*# sourceMappingURL=Footer.module.css.map */

@@ -10,6 +10,7 @@ const Menu = () => {
         'Features',
         'Pricing',
         'About Us',
+        
     ]
     
     return (
@@ -17,7 +18,7 @@ const Menu = () => {
  {/* <NavLink to= {'/' + value}>{value}  </NavLink> */}
 
             {menuItems.map((value, index) => {
-                return <li   key={index}><a  href= {'#' + value}>{value}  </a> </li>
+                return <li  key={index}><a  href= {'#' + value}>{value}  </a> </li>
                 
             })}
 

@@ -6,8 +6,9 @@ import SingUpForm from './components/Sing_Up_Form/SingUpForm';
 import Pricing from './components/Pricing/Pricing/Pricing';
 import CTA from './components/CTA/CTA';
 import Testimonials from './components/Testimonials/Testimonials/Testimonials';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer Flex/Footer';
 import Header from './components/Header/Header';
+import Footer from './components/Footer Grid/Footer'
 
 
 

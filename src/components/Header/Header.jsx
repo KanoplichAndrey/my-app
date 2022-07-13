@@ -6,27 +6,17 @@ import Button from '../button/Button';
 const Header = () => {
 
   return <nav className={s.Header} id='Home'>
-    <div className={s.logo}>
+    <a href='#' className={s.logo}>
       <img title="my-img" src={logo} alt="my-img" />
-    </div>
+    </a>
     <div className={s.menu}>
-    
       <Menu />
-    
-      {/* <span>< NavLink to='/'>Home</NavLink></span>
-      <span>< NavLink to='/Features'>Features</NavLink></span>
-      <span>< NavLink to='/Pricing'>Pricing</NavLink></span>
-      <span>< NavLink to='/About Us'>About Us</NavLink></span> */}
-      
     </div>
     <div>
-
       <span><a href='#Sign%20In' >Sign In</a></span>
-      {/* <button className={s.button} >Sign Up</button> */}
-      <Button text={'Sign Up'} customClass={s.button}/> 
+      <Button text={'Sign Up'} customClass={s.button} />
       <div>
-   
-</div>
+      </div>
     </div>
   </nav>
 }

@@ -7,19 +7,19 @@ const RenderCart = () => {
     {
       tarifplan: 'Starter',
       prise: '$49',
-      prisePeriud: 'month',
+      prisePeriud: '/month',
       nameSelect: 'Period',
       Teammates: 'Teammates',
     }, {
       tarifplan: 'Premium',
       prise: '$89',
-      prisePeriud: 'month',
+      prisePeriud: '/month',
       nameSelect: 'Period',
       Teammates: 'Teammates',
     }, {
       tarifplan: 'Unlimited',
       prise: '$199',
-      prisePeriud: 'month',
+      prisePeriud: '/month',
       nameSelect: 'Period',
       Teammates: 'Teammates',
     },

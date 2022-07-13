@@ -8,7 +8,7 @@ import { useState } from 'react'
 const SelectPeriud = () => {
 
 
-	const cartPrising = ['month', '1', '2', '3', '5', '6', '7', '8', '9', '10', '11', '12'];
+	const cartPrising = ['Month', '1', '2', '3', '5', '6', '7', '8', '9', '10', '11', '12'];
 	const [value, setValue] = useState(' ');
 
 	const options = cartPrising.map((text, index) => {

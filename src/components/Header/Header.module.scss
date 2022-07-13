@@ -4,7 +4,8 @@
 }
 
 .Header {
-  height: 80px;
+  // min-width: 100vh;
+  min-height: 16vh;
   background: #F5F5F5;
   display: flex;
   justify-content: space-between;
@@ -14,8 +15,6 @@
   position: sticky;
   top: 0;
   z-index: 1;
-
-
 }
 
 .menu {
@@ -36,11 +35,7 @@ span a {
   letter-spacing: -0.288889px;
   color: #1A1A1A;
   text-decoration: none;
-
-  
-
 }
-
 
 .menu ul {
   display: flex;
@@ -48,18 +43,15 @@ span a {
 }
 
 .menu ul li a {
-  // margin-left: -18px;
-  // margin-right: 27px;
   font-family: 'Inter';
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.288889px;
   color: #1A1A1A;
-  
   text-decoration: none;
-  
 }
+
 .menu ul li a:hover{
     color: #27a759; 
     text-decoration: underline 2px;
@@ -70,18 +62,10 @@ a:hover{
   text-decoration: underline 2px;
 }
 .button {
-  // background-color: rgba(39, 167, 89, 1);
   width: 89px;
   height: 40px;
-  // font-family: 'Inter';
   font-size: 14px;
   letter-spacing: -0.252778px;
-  // color: #FEFEFE;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  // border-radius: 4px;
-  // border: 1px solid rgba(39, 167, 89, 1);
 }
 
-// button:hover {
-//   background: rgb(11, 68, 33);
-// }

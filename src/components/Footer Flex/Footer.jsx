@@ -16,25 +16,30 @@ const Footer = () => {
     
   return  <div className={s.Footer} id='About Us'>
             <div className={s.wrap} >
-                <div className='logo'>
-                    <img title="my-img" src={logo} alt="my-img" />
-                </div>
-              <div className={s.icon}>
-                {icons.map((icon)=> <img title="my-img" src={icon} alt="my-img" />)}
-              </div>
-              <div>
-                <form method="" action="">
-                  <input type="text" placeholder="Subscribe" ></input>
-                </form>
-              </div>
-            </div>
-            <div className={s.info}>
+                  <div className='logo'>
+                      <img title="my-img" src={logo} alt="my-img" />
+                  </div>
+                <div className={s.footerContent}>
+                <div className={s.icon}>
+                  {icons.map((icon)=> <img title="my-img" src={icon} alt="my-img" />)}
+
+                  </div>
+                <div className={s.info}>
               {textInfo.map((info)=><span>{info}</span> )}
            
             </div>
             <div>
-              <span>{textInfo1}</span>
+              <p>{textInfo1}</p>
             </div>
+
+                </div>
+                <div>
+                  <form method="" action="">
+                    <input type="text" placeholder="Subscribe" ></input>
+                  </form>
+                </div>
+              </div>
+           
           </div>
 };
 

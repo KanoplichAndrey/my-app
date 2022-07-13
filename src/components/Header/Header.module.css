@@ -4,7 +4,7 @@
 }
 
 .Header {
-  height: 80px;
+  min-height: 16vh;
   background: #F5F5F5;
   display: -webkit-box;
   display: -ms-flexbox;

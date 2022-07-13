@@ -8,6 +8,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+body {
+  width: 100%;
+}
+
 .app-wrapper {
   margin: 0 auto;
   width: 1400px;
