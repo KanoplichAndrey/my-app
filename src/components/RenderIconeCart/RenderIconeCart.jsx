@@ -29,7 +29,7 @@
 //   },
 // ]
 
-// const RenderCart = () => {
+// const RenderIconeCart = () => {
 
 //   const array = [
 //     {
@@ -57,10 +57,5 @@
 //   </>;
 
 // }
-
-
-
-
-
 
 // export default RenderCart;

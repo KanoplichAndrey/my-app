@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 import s from '../Cart/Cart.module.css'
 
 const IconePerson = () => {
-    return <div className={s.iconPerson}></div>
+  return <div className={s.iconPerson}></div>
 }
 
-export default IconePerson;
+export default IconePerson

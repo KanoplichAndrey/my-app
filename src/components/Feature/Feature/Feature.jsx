@@ -1,36 +1,35 @@
-import React from 'react';
-import s from './Feature.module.css';
-import { VerticalSwipeToSlide } from './Slider1';
-import Button from '../../button/Button';
+import React from 'react'
+import s from './Feature.module.css'
+import { VerticalSwipeToSlide } from './Slider1'
+import Button from '../../button/Button'
 
 const array = [
   {
     contentHeader: 'First Feature ',
     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
+    contentFooter: 'Learn More'
   },
   {
     contentHeader: 'Second Feature ',
     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
+    contentFooter: 'Learn More'
   },
   {
     contentHeader: 'First Feature ',
     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
+    contentFooter: 'Learn More'
   }, {
     contentHeader: 'First Feature ',
     contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More',
-  },
+    contentFooter: 'Learn More'
+  }
 ]
 
 const Feature = () => {
-
   return (
     <div className={s.Feature} id='Features'>
       <div className={s.contentSlider}>
@@ -50,6 +49,6 @@ const Feature = () => {
           <Button text={'More Features'} customClass={s.button} />
       </div>
     </div>)
-};
+}
 
-export default Feature;
+export default Feature

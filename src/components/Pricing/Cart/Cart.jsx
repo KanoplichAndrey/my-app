@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 import s from './Cart.module.css'
-import CartPrising from '../CartPrising/SelectPeriud';
+import CartPrising from '../CartPrising/SelectPeriud'
 import SelectTeammates from '../CartPrising/SelectTeammates'
 // import Button from '../CartPrising/Button';
-import Button from '../../button/Button';
-function Cart(props) {
+import Button from '../../button/Button'
+function Cart (props) {
   return (
 
     <div className={s.cartPricing}>
@@ -19,12 +19,12 @@ function Cart(props) {
         <p>
           <SelectTeammates />
         </p>
-        <Button text={'Choose Plan'} customClass={s.input}/> 
+        <Button text={'Choose Plan'} customClass={s.input}/>
         {/* <Button /> */}
       </form>
     </div>
 
-  );
+  )
 }
 
-export default Cart;
+export default Cart

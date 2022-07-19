@@ -1,35 +1,33 @@
-import React from 'react';
-import './App.css';
-import Content from './components/Content/Content';
-import Feature from './components/Feature/Feature/Feature';
-import SingUpForm from './components/Sing_Up_Form/SingUpForm';
-import Pricing from './components/Pricing/Pricing/Pricing';
-import CTA from './components/CTA/CTA';
-import Testimonials from './components/Testimonials/Testimonials/Testimonials';
+import React from 'react'
+import './App.css'
+// import Content from './components/Content/Content';
+import Content from './components/Content copy/Content'
+import Feature from './components/Feature/Feature/Feature'
+import SingUpForm from './components/Sing_Up_Form/SingUpForm'
+import Pricing from './components/Pricing/Pricing/Pricing'
+import CTA from './components/CTA/CTA'
+import Testimonials from './components/Testimonials/Testimonials/Testimonials'
 // import Footer from './components/Footer Flex/Footer';
-import Header from './components/Header/Header';
+import Header from './components/Header/Header'
 import Footer from './components/Footer Grid/Footer'
 
-
-
-function App() {
-
+function App () {
   return (
-    // <Router>
+  // <Router>
 
       <div className='app-wrapper' id='Home'>
 
-        <Header />  
+        <Header />
 
         {/* <Routes> */}
           {/* <Route path='/' element={<Header />}/>  */}
           {/* <Route  path='/Features' element={<Feature />} />
           <Route path='SingUpForm' element={<SingUpForm />} />
-          <Route path='/Pricing' element={<Pricing />} /> 
-        </Routes> */} 
+          <Route path='/Pricing' element={<Pricing />} />
+        </Routes> */}
         <Content />
         <Feature />
-        <SingUpForm  />
+        <SingUpForm />
         <Pricing />
         <CTA />
         <Testimonials/>
@@ -37,13 +35,8 @@ function App() {
 
       </div>
 
-        // </Router>  
-  );
-
+  // </Router>
+  )
 }
 
-export default App;
-
-
-
-
+export default App

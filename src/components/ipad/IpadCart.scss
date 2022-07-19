@@ -1,0 +1,49 @@
+.default-ipad{
+  
+  width: 98px;
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+   .default-iperson{
+    background: url('../../img/iPad/personbig.svg') no-repeat center;
+    width: 81px;
+    height: 81px;
+    background-color: #E7EBFC;
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-top: 3px;
+   }
+
+   .default-infoperson{
+    ul li:nth-child(1){
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16.2694px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: -0.293753px;
+      color: #1A1A1A;
+      // margin-bottom: 2px;
+    }
+
+    ul li:nth-child(2){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5578px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.244794px;
+    color: #767676;
+    // margin-bottom: 3px;
+    }
+
+    
+   }
+
+
+}
