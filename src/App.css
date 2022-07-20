@@ -2,10 +2,9 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -16,7 +15,6 @@ body {
   margin: 0 auto;
   width: 1400px;
 }
-
 .app-wrapper select:focus {
   outline: 0;
 }
@@ -50,7 +48,6 @@ body {
   border-radius: 50%;
   background-color: #E7EBFC;
 }
-
 .mySlider .slick-prev:hover {
   background: url("img/Arrow_backgreen.svg") no-repeat center center/60%;
   background-color: #E7EBFC;
@@ -62,15 +59,14 @@ body {
   border-radius: 50%;
   background-color: #E7EBFC;
 }
-
 .mySlider .slick-next:hover {
   background: url("img/Arrow_Forwardgreen.svg") no-repeat center center/60%;
   background-color: #E7EBFC;
 }
 
 .mySlider .slick-prev:before, .mySlider .slick-next:before {
-  content: '';
-  font-family: '';
+  content: "";
+  font-family: "";
   font-size: 20px;
   line-height: 1;
   opacity: 100;
@@ -84,7 +80,6 @@ body {
   width: 10%;
   height: 6%;
 }
-
 .Slider1 .slick-dots :hover {
   background: transparent;
 }
@@ -113,15 +108,14 @@ html {
 }
 
 .default-button {
-  background-color: #27a759;
+  background-color: rgb(39, 167, 89);
   color: #FEFEFE;
-  font-family: 'Inter';
+  font-family: "Inter";
   border-radius: 6px;
-  border: 1px solid #27a759;
+  border: 1px solid rgb(39, 167, 89);
   cursor: pointer;
 }
 
 .default-button:hover {
-  background: #0b4421;
-}
-/*# sourceMappingURL=App.css.map */
+  background: rgb(11, 68, 33);
+}/*# sourceMappingURL=App.css.map */

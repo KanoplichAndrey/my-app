@@ -1,5 +1,5 @@
-import React from 'react'
-import Cart from '../Cart/Cart'
+import React from 'react';
+import Cart from '../Cart/Cart';
 
 const RenderCart = () => {
   const array = [
@@ -23,15 +23,15 @@ const RenderCart = () => {
       Teammates: 'Teammates'
     }
 
-  ]
+  ];
   const res1 = array.map(function (item, index) {
-    return <Cart {...item} key={index} />
-  })
+    return <Cart {...item} key={index} />;
+  });
 
   return <>
     {res1}
 
-  </>
-}
+  </>;
+};
 
-export default RenderCart
+export default RenderCart;

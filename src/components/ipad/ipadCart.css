@@ -1,24 +1,12 @@
 .default-ipad {
   width: 98px;
   height: 136px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-
 .default-ipad .default-iperson {
   background: url("../../img/iPad/personbig.svg") no-repeat center;
   width: 81px;
@@ -28,9 +16,8 @@
   margin-right: 0px;
   margin-top: 3px;
 }
-
 .default-ipad .default-infoperson ul li:nth-child(1) {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 16.2694px;
@@ -39,9 +26,8 @@
   letter-spacing: -0.293753px;
   color: #1A1A1A;
 }
-
 .default-ipad .default-infoperson ul li:nth-child(2) {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 13.5578px;
@@ -49,5 +35,4 @@
   text-align: center;
   letter-spacing: -0.244794px;
   color: #767676;
-}
-/*# sourceMappingURL=IpadCart.css.map */
+}/*# sourceMappingURL=IpadCart.css.map */

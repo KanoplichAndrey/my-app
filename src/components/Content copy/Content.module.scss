@@ -108,7 +108,7 @@
 
     // background-color: #27A759;
     border: 23.7262px solid #000000;
-    border-radius: 44.3368px;
+    border-radius: 44.3368px 44.3368px 44.3368px 44.3368px;
     box-sizing: content-box;
 
     .gridWrap {
@@ -128,6 +128,7 @@
         justify-items: center;
         grid-template-rows: 12% 10% 0% 8% 2% 7% 3% 49% 5%;
 
+       
         img:nth-child(1) {
           display: grid;
           align-self: center;
@@ -174,7 +175,7 @@
         background-color: #ffffff;
         display: grid;
         justify-items: center;
-        grid-template-rows: 26.6% 4.5% 13.5% 4.7% 2% 7% 3%;
+        grid-template-rows: 26.6% 4.5% 13.5% 4.7% 8% 7% 3%;
         padding-left: 27px;
         padding-right: 27px;
         .IpadCart {
@@ -241,22 +242,124 @@
         height: 100%;
         width: 100%;
         justify-content: center;
+        
         .wrapcolumn3 {
           width: 328px;
           height: 100%;
-          background: #27a759;
           display: grid;
-          grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+          grid-template-rows: 9% 5% 4% 11.5% 3% 6% 3% 8.5% 3% 10% 3% 8% 3.5% 6% 3% 11.3%;
+          align-items: flex-end;
+
+          .col3Input{
+            height: 32px;
+          }
+
+          & div:nth-child(3) p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16.2694px;
+            line-height: 23px;
+            /* or 142% */
+            letter-spacing: -0.293753px;
+            color: #1A1A1A;
+          }
+
+          .chat{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 8.1347px;
+            line-height: 11px;
+            letter-spacing: -0.146877px;
+            color: #767676;
+          }
+            & div:nth-child(4) p, & div:nth-child(5) p, & div:nth-child(6) p,
+            & div:nth-child(6) p, & div:nth-child(7) p, & div:nth-child(8) p,
+            & div:nth-child(9) p, & div:nth-child(10) p, & div:nth-child(11) p,
+            & div:nth-child(12) p,& div:nth-child(13) p, & div:nth-child(14) p, & div:nth-child(15) p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 9.49048px;
+            line-height: 15px;
+            letter-spacing: -0.171356px;
+            
+            // color: #FEFEFE;
+            // background: rgb(173, 12, 12);
+            border-radius: 1px;
+            // width: 200px;
+            color: #767676;
+            
+          }
+
+
+          & div:nth-child(4), & div:nth-child(8), & div:nth-child(12){
+            // background: rgb(173, 12, 12);
+            display: grid;
+            justify-content: flex-start;
+            grid-template-columns: minmax(0px, 217px);
+            
+            
+          }
+          & div:nth-child(4) p, & div:nth-child(8) p, & div:nth-child(12) p{
+            color: #FEFEFE;
+            padding: 12px;
+            background: #1A1A1A;
+            border-radius: 8.1347px 8.1347px 8.1347px 0px;
+            // display: grid;
+            // justify-content: flex-start;
+          }
+
+          & div:nth-child(5), & div:nth-child(9), & div:nth-child(13){
+            // background: rgb(82, 12, 173);
+            display: grid;
+            justify-content: flex-start;
+          }
+          & div:nth-child(5) p, & div:nth-child(9) p, & div:nth-child(13) p{
+            // background: rgb(82, 12, 173);
+            // display: grid;
+            // justify-content: flex-start;
+          }
+
+          & div:nth-child(6), & div:nth-child(10), & div:nth-child(14){
+            // background: rgb(12, 173, 133);
+            display: grid;
+            justify-content: flex-end;
+            grid-template-columns: minmax(0px, 217px);
+          }
+          & div:nth-child(6) p, & div:nth-child(10) p, & div:nth-child(14) p{
+            background: rgb(12, 173, 133);
+            padding: 12px;
+            background:#E7EBFC;
+            color: #1A1A1A;
+
+            border-radius: 8.1347px 8.1347px 0px 8.1347px;
+            // display: grid;
+            // justify-content: flex-end;
+          }
+
+          & div:nth-child(7), & div:nth-child(11), & div:nth-child(15){
+            // background: rgb(152, 209, 19);
+            display: grid;
+            justify-content: flex-end;
+          }
+          & div:nth-child(7) p, & div:nth-child(11) p, & div:nth-child(15) p{
+            // background: rgb(152, 209, 19);
+            // display: grid;
+            // justify-content: flex-end;
+          }
+          
+
         }
       }
       .column4 {
         background-color: #ffffff;
         display: grid;
-        // justify-items: center;
-        grid-template-rows: 11% 21.5% 7.5% 4.7% 24% 7% 3% 10% ;
+        grid-template-rows: 11% 21.5% 7.5% 4.7% 24% 8% 5% 10%;;
         padding-left: 27px;
         padding-right: 27px;
-         
+        border-radius: 0px 17.3368px 17.3368px 0px;
         
        .gap{
         display: grid;
@@ -290,7 +393,7 @@
 
           .ipadcartwrap{
             display: grid;
-            /* justify-items: center; */
+            justify-items: center; 
             align-items: center;
             
           }
@@ -324,58 +427,59 @@
           text-decoration: none;
         }
       }
-  //     .cont{
-  //       display: grid;
-  //       grid-template-columns: 1fr 1fr;
-  //   }
+      .cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     
-  //   .contInf{
-  //       display: grid;
-  //       grid-template-rows: 1fr 1fr;
+    .contInf{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
     
-  //       p:nth-child(1){
-  //           font-family: 'Inter';
-  //           font-style: normal;
-  //           font-weight: 600;
-  //           font-size: 10.8463px;
-  //           line-height: 18px;
-  //           letter-spacing: -0.195835px;
-  //           color: #1A1A1A;
-  //       }
-  //       p:nth-child(2){
-  //           font-family: 'Inter';
-  //           font-style: normal;
-  //           font-weight: 400;
-  //           font-size: 9.49048px;
-  //           line-height: 15px;
-  //           text-align: right;
-  //           letter-spacing: -0.171356px;
-  //           color: #767676;
-  //           justify-self: start;
-  //       }
-  //   }
-  //   .contcart{
-  //     display: grid;
-  //     // grid-template-columns: 20% 1fr;
-  //     align-items: center;
-  //     justify-items: center;
+        p:nth-child(1){
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 10.8463px;
+            line-height: 18px;
+            letter-spacing: -0.195835px;
+            color: #1A1A1A;
+        }
+        p:nth-child(2){
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 9.49048px;
+            line-height: 15px;
+            text-align: right;
+            letter-spacing: -0.171356px;
+            color: #767676;
+            justify-self: start;
+        }
+    }
+    .contcart{
+      // display: grid;
+      // grid-template-columns: 20% 1fr;
+      // align-items: center;
+      // justify-items: center;
   
-  //     .profession{
-  //     font-family: 'Inter';
-  //     font-style: normal;
-  //     font-weight: 400;
-  //     font-size: 9.49048px;
-  //     line-height: 15px;
-  //     text-align: right;
-  //     letter-spacing: -0.171356px;
-  //     color: #767676;
-  //     align-self: end;
-  //     }
+      .profession{
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 9.49048px;
+      line-height: 15px;
+      text-align: right;
+      letter-spacing: -0.171356px;
+      color: #767676;
+      // align-self: end;
+      }
       
-  // }
+  }
       
       }
     }
   }
 }
+
 

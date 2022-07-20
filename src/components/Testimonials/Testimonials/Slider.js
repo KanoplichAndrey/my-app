@@ -1,34 +1,35 @@
-import React from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import Cart from '../Cart/Cart'
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Cart from '../Cart/Cart';
 // import s from'./Slider.module.css';
 // import RenderCart from "../RenderCart";
 // import background from "../../../img/Arrow_back.svg";
 
-const arrowSize = '50px'
+const arrowSize = '50px';
 
 function SampleNextArrow (props) {
-  const { className, onClick } = props
+  const { className, onClick } = props;
+
   return (
         <div
             className={className}
             style={{ display: 'block', width: arrowSize, height: arrowSize }}
             onClick={onClick}
         />
-  )
+  );
 }
 
 function SamplePrevArrow (props) {
-  const { className, onClick } = props
+  const { className, onClick } = props;
   return (
         <div
             className={className}
             style={{ display: 'block', width: arrowSize, height: arrowSize }}
             onClick={onClick}
         />
-  )
+  );
 }
 
 export const FocusOnSelect = ({ array }) => {
@@ -69,7 +70,7 @@ export const FocusOnSelect = ({ array }) => {
     //       }
     //     }
     //   ]
-  }
+  };
   return (
             <div className={'mySlider'}>
             <Slider {...settings}>
@@ -86,5 +87,5 @@ export const FocusOnSelect = ({ array }) => {
   // color: aqua;
   // position: absolute;
   // }
-  )
-}
+  );
+};

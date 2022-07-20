@@ -1,29 +1,18 @@
 .SingUpForm {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   background: #E5E5E5;
 }
-
 .SingUpForm .FormWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding-left: 145px;
   padding-top: 100px;
 }
-
 .SingUpForm .FormWrap h3 {
   width: 445px;
   height: 104px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 42px;
@@ -32,10 +21,9 @@
   color: #1A1A1A;
   margin-bottom: 16px;
 }
-
 .SingUpForm .FormWrap .titleContent {
   width: 400px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -44,19 +32,12 @@
   color: #767676;
   margin-bottom: 60px;
 }
-
 .SingUpForm .FormWrap .SingUpWrap form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .SingUpForm .FormWrap .SingUpWrap form p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -65,9 +46,8 @@
   color: #767676;
   margin-bottom: 60px;
 }
-
 .SingUpForm .FormWrap .SingUpWrap label {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -77,7 +57,6 @@
   color: #1A1A1A;
   margin-bottom: 10px;
 }
-
 .SingUpForm .FormWrap .SingUpWrap input {
   border: 1px solid #D2D2D2;
   border-radius: 6px;
@@ -85,8 +64,6 @@
   height: 56px;
   padding-left: 10px;
 }
-
 .SingUpForm .picture {
   padding-top: 71px;
-}
-/*# sourceMappingURL=Sing_Up_Form.module.css.map */
+}/*# sourceMappingURL=Sing_Up_Form.module.css.map */

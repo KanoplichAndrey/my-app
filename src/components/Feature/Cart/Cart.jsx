@@ -1,5 +1,5 @@
-import React from 'react'
-import s from '../Cart/cart.module.css'
+import React from 'react';
+import s from '../Cart/cart.module.css';
 
 const Cart = (props) => {
   return (
@@ -18,7 +18,7 @@ const Cart = (props) => {
             </ul>
          </div>
       </div>
-  )
-}
+  );
+};
 
-export default Cart
+export default Cart;

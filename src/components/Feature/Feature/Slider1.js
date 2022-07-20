@@ -1,8 +1,8 @@
-import React from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import Cart from '../Cart/Cart'
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Cart from '../Cart/Cart';
 export const VerticalSwipeToSlide = ({ array }) => {
   const settings = {
     dots: true,
@@ -15,7 +15,7 @@ export const VerticalSwipeToSlide = ({ array }) => {
     arrows: false,
     Infinity: true
 
-  }
+  };
 
   return (
             <div className={'Slider1'}>
@@ -28,5 +28,5 @@ export const VerticalSwipeToSlide = ({ array }) => {
                     }
                 </Slider>
             </div>
-  )
-}
+  );
+};

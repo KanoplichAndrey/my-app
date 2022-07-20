@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const SelectTeammates = () => {
-  const SelectTeammates = ['User 1', 'User 2', 'User 3']
-  const [value, setValue] = useState(' ')
+  const SelectTeammates = ['User 1', 'User 2', 'User 3'];
+  const [value, setValue] = useState(' ');
   const options = SelectTeammates.map((text, index) => {
-    return <option key={index}>{text}</option>
-  })
+    return <option key={index}>{text}</option>;
+  });
 
   return (
       <div>
@@ -16,7 +16,7 @@ const SelectTeammates = () => {
             {options}
          </select>
       </div>
-  )
-}
+  );
+};
 
-export default SelectTeammates
+export default SelectTeammates;

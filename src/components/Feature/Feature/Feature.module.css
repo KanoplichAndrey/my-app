@@ -1,28 +1,23 @@
 .Feature {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-top: 100px;
   height: 600px;
   overflow: hidden;
   position: relative;
+  background: white;
+  margin-top: -445px;
 }
-
 .Feature .contentSlider {
   padding-left: 145px;
   margin-right: 101px;
 }
-
 .Feature .content div:nth-child(1) {
   margin-bottom: 24px;
   margin-right: 145px;
 }
-
 .Feature .content div:nth-child(1) h2 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
@@ -32,14 +27,12 @@
   width: 730px;
   height: 124px;
 }
-
 .Feature .content div:nth-child(2) {
   margin-right: 240px;
   margin-bottom: 37px;
 }
-
 .Feature .content div:nth-child(2) p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -49,7 +42,6 @@
   width: 635px;
   height: 90px;
 }
-
 .Feature .content .button {
   width: 149px;
   height: 48px;
@@ -59,5 +51,4 @@
   text-align: center;
   letter-spacing: -0.288889px;
   color: #FEFEFE;
-}
-/*# sourceMappingURL=Feature.module.css.map */
+}/*# sourceMappingURL=Feature.module.css.map */

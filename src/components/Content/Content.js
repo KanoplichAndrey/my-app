@@ -1,6 +1,6 @@
-import React from 'react'
-import s from './Content.module.css'
-import imgphone from '../../img/imgphone.svg'
+import React from 'react';
+import s from './Content.module.css';
+import imgphone from '../../img/imgphone.svg';
 const Content = () => {
   return (
     <div className={s.Content}>
@@ -27,7 +27,7 @@ const Content = () => {
         <img title="my-img" src={imgphone} alt="my-img" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Content
+export default Content;

@@ -8,54 +8,35 @@
   padding-top: 30px;
   padding-right: 30px;
 }
-
 .Footer .wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 .Footer .wrap .footerContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   margin-left: 63px;
 }
-
 .Footer .wrap .footerContent .icon {
   padding-bottom: 33px;
 }
-
 .Footer .wrap .footerContent .icon img:nth-child(2),
 .Footer .wrap .footerContent .icon img:nth-child(3),
 .Footer .wrap .footerContent .icon img:nth-child(4) {
   margin-left: 16px;
 }
-
 .Footer .wrap .footerContent .icon img:nth-child(4) {
   display: inline-block;
   vertical-align: 2px;
   margin-right: 5px;
 }
-
 .Footer .wrap .footerContent .info {
   padding-bottom: 17px;
   padding-top: 3px;
   margin-left: 12px;
 }
-
 .Footer .wrap .footerContent .info span {
   font-family: "Inter";
   font-style: normal;
@@ -64,27 +45,22 @@
   line-height: 22px;
   color: #767676;
 }
-
 .Footer .wrap .footerContent .info span:nth-child(1) {
   letter-spacing: -0.252778px;
   margin-right: 16px;
 }
-
 .Footer .wrap .footerContent .info span:nth-child(2) {
   letter-spacing: -0.152778px;
   margin-right: 16px;
 }
-
 .Footer .wrap .footerContent .info span:nth-child(3) {
   letter-spacing: -0.152778px;
   margin-right: 16px;
 }
-
 .Footer .wrap .footerContent .info span:nth-child(4) {
   letter-spacing: -0.152778px;
   margin-right: 16px;
 }
-
 .Footer .wrap .footerContent div p {
   padding-right: 8px;
   font-family: "Inter";
@@ -111,5 +87,4 @@ input {
   color: #767676;
   padding-left: 14px;
   border-radius: 6px;
-}
-/*# sourceMappingURL=Footer.module.css.map */
+}/*# sourceMappingURL=Footer.module.css.map */

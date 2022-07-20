@@ -1,25 +1,17 @@
 .CTA {
   background: #E5E5E5;
 }
-
 .CTA .CTAWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding-top: 100px;
   padding-left: 145px;
   padding-right: 145px;
   padding-bottom: 50px;
 }
-
 .CTA .CTAWrap label:nth-child(1) p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
@@ -28,14 +20,13 @@
   color: #1A1A1A;
   margin-right: 70px;
 }
-
 .CTA .CTAWrap div:nth-child(2) input {
   border: 1px solid #D2D2D2;
   background: #E5E5E5;
   border-radius: 6px;
   width: 273px;
   height: 56px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -44,7 +35,6 @@
   padding-left: 18px;
   color: #767676;
 }
-
 .CTA .button {
   width: 114px;
   height: 56px;
@@ -54,7 +44,6 @@
   line-height: 28px;
   letter-spacing: -0.325px;
 }
-
 .CTA .line {
   border: solid 1px #D2D2D2;
   width: 1110px;
@@ -62,46 +51,33 @@
   background: #D2D2D2;
   margin: 0 auto;
 }
-
 .CTA .brandWrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-top: 50px;
   width: 942px;
   height: 44px;
   margin: 0 auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-bottom: 144px;
 }
-
 .CTA .brandWrap div:nth-child(1) img {
   vertical-align: -15px;
 }
-
 .CTA .brandWrap div:nth-child(2) img {
   vertical-align: -24px;
 }
-
 .CTA .brandWrap div:nth-child(3) img {
   vertical-align: -28px;
 }
-
 .CTA .brandWrap div:nth-child(4) img {
   vertical-align: -15px;
 }
-
 .CTA .brandWrap div:nth-child(5) img {
   vertical-align: -15px;
 }
-
 .CTA .brandWrap div:nth-child(6) img {
   vertical-align: -15px;
 }
-
 .CTA .brandWrap div:nth-child(7) img {
   vertical-align: -15px;
-}
-/*# sourceMappingURL=CTA.module.css.map */
+}/*# sourceMappingURL=CTA.module.css.map */

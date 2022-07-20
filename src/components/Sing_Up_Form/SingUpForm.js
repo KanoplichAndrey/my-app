@@ -1,7 +1,7 @@
-import React from 'react'
-import picture from '../../img/picture.png'
-import Form from '../Use/Form'
-import s from './Sing_Up_Form.module.css'
+import React from 'react';
+import picture from '../../img/picture.png';
+import Form from '../Use/Form';
+import s from './Sing_Up_Form.module.css';
 
 const SingUpForm = () => {
   return <div className={s.SingUpForm} id='Sign%20In'>
@@ -15,7 +15,7 @@ const SingUpForm = () => {
     <div className={s.picture}>
       <img title="my-img" src={picture} alt="my-img" />
     </div>
-  </div>
-}
+  </div>;
+};
 
-export default SingUpForm
+export default SingUpForm;

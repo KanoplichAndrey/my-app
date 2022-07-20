@@ -1,36 +1,30 @@
 form .Usernam {
   position: relative;
 }
-
 form .Usernam span {
   position: absolute;
   color: red;
   top: -107px;
   left: 75px;
 }
-
 form .email {
   position: relative;
 }
-
 form .email span {
   position: absolute;
   color: red;
   top: -107px;
   left: 75px;
 }
-
 form .Password {
   position: relative;
 }
-
 form .Password span {
   position: absolute;
   color: red;
   top: -107px;
   left: 75px;
 }
-
 form span {
   position: absolute;
   color: red;
@@ -58,17 +52,12 @@ input:not(:last-child) {
 }
 
 .clearfix {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 435px;
   height: 56px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 37px;
 }
-
 .clearfix .btn {
   width: 112px;
   height: 56px;
@@ -77,19 +66,16 @@ input:not(:last-child) {
   line-height: 28px;
   letter-spacing: -0.325px;
 }
-
 .clearfix p:last-child {
   color: #1A1A1A;
   margin-bottom: 0px;
   width: 303px;
   height: 52px;
 }
-
 .clearfix p:last-child a {
-  color: #27a759;
+  color: rgb(39, 167, 89);
 }
 
 .picture {
   padding-top: 71px;
-}
-/*# sourceMappingURL=Form.module.css.map */
+}/*# sourceMappingURL=Form.module.css.map */

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,oBAAoB,CAAA;EACZ,UAAU,EAAE,2BAA2B,CAAC,SAAS,CAAC,MAAM;EACxD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,GAAG;EAClB,YAAY,EAAE,GAAG;CACrB",
-    "sources": [
-        "IconePerson.scss"
-    ],
-    "names": [],
-    "file": "IconePerson.css"
-}
+{"version":3,"sources":["IconePerson.scss","IconePerson.css"],"names":[],"mappings":"AAAA;EACQ,wDAAA;EACA,WAAA;EACA,YAAA;EACA,yBAAA;EACA,kBAAA;EACA,iBAAA;ACCR","file":"IconePerson.css"}

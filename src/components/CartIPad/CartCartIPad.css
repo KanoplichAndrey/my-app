@@ -1,51 +1,17 @@
-.contTime {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-}
-
-.contTime .cont {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-}
-
-.contTime .cont p:nth-child(1) {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 10.8463px;
-  line-height: 18px;
-  letter-spacing: -0.195835px;
-  color: #1A1A1A;
-}
-
-.contTime .cont p:nth-child(2) {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 9.49048px;
-  line-height: 15px;
-  text-align: right;
-  letter-spacing: -0.171356px;
-  color: #767676;
-}
-
 .default-contcart {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20% 1fr;
-      grid-template-columns: 20% 1fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
+  grid-template-columns: 20% 1fr;
+  grid-column-gap: 7px;
+  align-content: center;
+  align-items: center;
+}
+.default-contcart .default-prof {
+  align-self: end;
+  display: grid;
 }
 
-.default-contcart .default-profession {
-  font-family: 'Inter';
+.default-profession {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 9.49048px;
@@ -53,27 +19,24 @@
   text-align: right;
   letter-spacing: -0.171356px;
   color: #767676;
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+  align-self: end;
+  display: grid;
+  grid-template-columns: 104px 1fr;
 }
 
 .default-cont {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .default-contInf {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
 }
-
 .default-contInf p:nth-child(1) {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 10.8463px;
@@ -81,9 +44,8 @@
   letter-spacing: -0.195835px;
   color: #1A1A1A;
 }
-
 .default-contInf p:nth-child(2) {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 9.49048px;
@@ -91,7 +53,5 @@
   text-align: right;
   letter-spacing: -0.171356px;
   color: #767676;
-  -ms-grid-column-align: start;
-      justify-self: start;
-}
-/*# sourceMappingURL=CartCartIPad.css.map */
+  justify-self: start;
+}/*# sourceMappingURL=CartCartIPad.css.map */

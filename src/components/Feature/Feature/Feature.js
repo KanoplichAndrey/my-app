@@ -1,7 +1,7 @@
-import React from 'react'
-import s from './Feature.module.css'
-import { VerticalSwipeToSlide } from './Slider1'
-import Button from '../../button/Button'
+import React from 'react';
+import s from './Feature.module.css';
+import { VerticalSwipeToSlide } from './Slider1';
+import Button from '../../button/Button';
 
 const array = [
   {
@@ -27,7 +27,7 @@ const array = [
     link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
     contentFooter: 'Learn More'
   }
-]
+];
 
 const Feature = () => {
   return (
@@ -48,7 +48,7 @@ const Feature = () => {
         </div>
           <Button text={'More Features'} customClass={s.button} />
       </div>
-    </div>)
-}
+    </div>);
+};
 
-export default Feature
+export default Feature;

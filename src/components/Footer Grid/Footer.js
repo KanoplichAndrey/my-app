@@ -1,16 +1,16 @@
-import React from 'react'
-import iconFacebook from '../../img/icon-Facebook.svg'
-import iconTwitter from '../../img/icon-Twitter.svg'
-import iconlinkedin from '../../img/icon-linkedin.svg'
-import iconGoogle from '../../img/icon-Google.svg'
-import logo from '../../img/logo.svg'
-import s from './Footer.module.css'
+import React from 'react';
+import iconFacebook from '../../img/icon-Facebook.svg';
+import iconTwitter from '../../img/icon-Twitter.svg';
+import iconlinkedin from '../../img/icon-linkedin.svg';
+import iconGoogle from '../../img/icon-Google.svg';
+import logo from '../../img/logo.svg';
+import s from './Footer.module.css';
 
-const icons = [iconFacebook, iconTwitter, iconlinkedin, iconGoogle]
+const icons = [iconFacebook, iconTwitter, iconlinkedin, iconGoogle];
 
 const Footer = () => {
-  const textInfo = ['Privacy Policy', 'Terms of Conditions', 'Legal', 'Help']
-  const textInfo1 = ['© 2020 All rights reserved']
+  const textInfo = ['Privacy Policy', 'Terms of Conditions', 'Legal', 'Help'];
+  const textInfo1 = ['© 2020 All rights reserved'];
 
   return <div className={s.Footer} id='About Us'>
     <div className={s.wrap} >
@@ -34,7 +34,7 @@ const Footer = () => {
         </form>
       </div>
     </div>
-  </div>
-}
+  </div>;
+};
 
-export default Footer
+export default Footer;
