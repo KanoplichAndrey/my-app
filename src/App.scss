@@ -10,19 +10,21 @@
   font-family: 'Inter', sans-serif;
  
 }
+html{
+  font-size: 10px;
+}
 body{
   width: 100%;
+  // font-size: 16px;
 }
 
 
 .app-wrapper {
   margin: 0 auto;
-  // width: 100vh;
-  // min-width: 100vh;
-  width: 1400px;
-  // max-width: 1400px;
-  // min-width: 270px;
-  
+//  width: 143rem;
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ padding-top: 1.5rem; 
 //  button:hover {
 //     background:  rgb(18, 112, 54);
 //     cursor: pointer;
@@ -32,22 +34,23 @@ body{
   // }
   select:focus{
     outline: 0;
+    
   }
 }
 
 //////////////////////////////SLIDER//////////////////////////////////
 
 .mySlider .slick-slider.slick-initialized{
-    margin-left: 145px;
-    margin-right: 145px;;
+    margin-left: 14.5rem;
+    margin-right: 14.5rem;
 }
 
 .mySlider .slick-list{
-  height: 350px;
+  height: 35rem;
 }
 
 .mySlider .slick-track{
-  height: 350px ;
+  height: 35rem ;
 }
 
 .mySlider .slick-prev, .mySlider .slick-next {
@@ -55,13 +58,13 @@ body{
   line-height: 0;
   top: 32% ;
   display: block;
-  width: 60px ;
-  height: 60px ;
+  width: 6rem ;
+  height: 6rem ;
   padding: 0;
 }
 
 .mySlider .slick-prev {
-  left: -92px ;
+  left: -9.2rem ;
   background: url('img/Arrow_back.svg') no-repeat center center /60% ;
   border-radius: 50%;
   background-color: #E7EBFC ;
@@ -71,7 +74,7 @@ body{
     }
 }
 .mySlider .slick-next {
-  left: 1144px ;
+  left: 114.4rem ;
   background: url('img/Arrow_Forward.svg')no-repeat center center /60% ;
   border-radius: 50%;
   background-color: #E7EBFC ;
@@ -84,7 +87,7 @@ body{
 .mySlider .slick-prev:before, .mySlider .slick-next:before {
   content: '';
   font-family: '';
-  font-size: 20px ;
+  font-size: 2rem ;
   line-height: 1 ;
   opacity: 100 ; 
    color: grey ;
@@ -92,8 +95,8 @@ body{
 }
 ///////////////////////////////////////slider1//////////////////////////////////
 .Slider1 .slick-dots {
-  left: -86px ;
-  top: 230px ;
+  left: -8.6rem ;
+  top: 23rem ;
   width: 10% ;
   height: 6% ;
 
@@ -107,14 +110,14 @@ body{
   
 }
 .Slider1 .slick-dots li {
-  height: 10px;
+  height: 1rem;
    position: relative;
    display: block;
 }
 .Slider1 .slick-dots li button:before{ 
 
   color: #27A759 ;
-  font-size: 6.5px;
+  font-size: 0.65rem;
   
 }
 .Slider1 .slick-track{
@@ -135,8 +138,9 @@ html{
   background-color: rgba(39, 167, 89, 1); 
   color: #FEFEFE;
   font-family: 'Inter';
-  border-radius: 6px;
+  border-radius: 0.6rem;
   border: 1px solid rgba(39, 167, 89, 1);
+  transition: .5s ease background-color;
   cursor: pointer;
 
 }
@@ -158,7 +162,7 @@ html{
 
 // @media all and (max-width: 1400px){
 //   .app-wrapper{
-//     width: 1200px;
+//     max-width: 1200px;
 //     background: #27A759;
 //     }
 
@@ -166,3 +170,6 @@ html{
 // .default-ipad{
 //   background-color: aliceblue;
 // }
+.fff{
+background: #8e87c9;
+}

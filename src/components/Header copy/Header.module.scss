@@ -1,0 +1,123 @@
+@import 'mixin';
+
+.logo {
+  width: 12.5rem;
+  height: 5.5rem;
+}
+.headerWrap{
+  height: 80px;
+  background: #F5F5F5;
+   position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navigation {
+  margin: 0 auto;
+  // height: 15.5vh;
+  height: 80px;
+  max-width: 140rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+  @include media(750px){
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    // align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-between;
+    justify-content: space-evenly;
+  }  
+}
+.menuBtn{
+    display: none;
+
+      @include media(750px){
+      display: block;
+      cursor: pointer;
+      }
+   }
+   
+
+  .btn.active{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, 100%); 
+  }
+ 
+
+.menu {
+  width: 32.4rem;
+  height: 2.6rem;
+  margin-left: 2.7rem;
+  @include media(750px){
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+} 
+
+
+}
+
+span a {
+  margin-left: -1.8rem;
+  margin-right: 2.7rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: right;
+  letter-spacing: -0.0288889rem;
+  color: #1A1A1A;
+  text-decoration: none;
+  @include media(750px){   
+    display: none;
+}  
+
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  // @include media(750px){   
+  //     display: none;
+  // }  
+}
+
+.menu ul li a {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: -0.0288889rem;
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: #27a759; 
+    text-decoration: underline .2rem;
+  }
+
+a:hover{
+  color: #27a759; 
+  text-decoration: underline .2rem;
+}
+.button {
+  width: 8.9rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.0252778rem;
+  filter: drop-shadow(0rem .4rem .4rem rgba(0, 0, 0, 0.25));
+
+  @include media(750px){   
+    display: none;
+}  
+}
+

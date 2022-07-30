@@ -1,6 +1,9 @@
 .Pricing {
+  margin: 0 auto;
+  max-width: 111rem;
   display: flex;
   background: #FEFEFE;
-  justify-content: space-between;
-  padding: 100px 145px 100px 145px;
+  padding: 100px 0px 100px 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=Pricing.module.css.map */

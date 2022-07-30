@@ -32,7 +32,7 @@ function SamplePrevArrow (props) {
   );
 }
 
-export const FocusOnSelect = ({ array }) => {
+export const FocusOnSelect = ({ array3 }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -43,49 +43,43 @@ export const FocusOnSelect = ({ array }) => {
     initialSlide: 0,
     // variableWidth: true,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
-    // responsive: [
-    //     {
-    //       breakpoint: 1024,
-    //       settings: {
-    //         slidesToShow: 3,
-    //         slidesToScroll: 3,
-    //         infinite: true,
-    //         dots: true
-    //       }
-    //     },
-    //     {
-    //       breakpoint: 600,
-    //       settings: {
-    //         slidesToShow: 2,
-    //         slidesToScroll: 2,
-    //         initialSlide: 2
-    //       }
-    //     },
-    //     {
-    //       breakpoint: 480,
-    //       settings: {
-    //         slidesToShow: 1,
-    //         slidesToScroll: 1
-    //       }
-    //     }
-    //   ]
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1380,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
             <div className={'mySlider'}>
             <Slider {...settings}>
                 {
-                    array.map((item, i) =>
+                    array3.map((item, i) =>
                         <Cart {...item} key={i}/>
                     )
                 }
 
             </Slider>
            </div>
-
-  // .mySlider .slick-slider{
-  // color: aqua;
-  // position: absolute;
-  // }
   );
 };

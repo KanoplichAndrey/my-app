@@ -11,7 +11,8 @@ import Button from '../button/Button';
 const icons = [philips, logitech, amazon, facebook, google, linked];
 
 const CTA = () => {
-  return <div className={s.CTA}>
+  return <div className={s.CTAContaner} >
+  <div className={s.CTA}>
         <form className={s.CTAWrap} method="" action="">
             <label>
                 <p>Modern & Digital Platform</p>
@@ -23,7 +24,7 @@ const CTA = () => {
                 <Button type="submit" text={'Confirm'} customClass={s.button}/>
             </div>
         </form>
-        <div className={s.sline}/>
+        <div className={s.line}></div>
         <div className={s.brandWrap}>
             { icons.map((icon, index) => (
                      <div key={index}>
@@ -32,6 +33,7 @@ const CTA = () => {
             )
             ) }
         </div>
+    </div>
     </div>;
 };
 

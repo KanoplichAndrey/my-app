@@ -1,13 +1,16 @@
+.CTAContaner{
+  background: #E5E5E5;
 .CTA {
   background: #E5E5E5;
-
+  margin: 0 auto;
+  max-width: 111rem;
   .CTAWrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 100px;
-    padding-left: 145px;
-    padding-right: 145px;
+    // padding-left: 145px;
+    // padding-right: 145px;
     padding-bottom: 50px;
 
     label:nth-child(1) p {
@@ -67,19 +70,21 @@
     padding-bottom: 144px;
 
     div:nth-child(1) img {
-      vertical-align: -15px
+      vertical-align: -19px
     }
 
     div:nth-child(2) img {
-      vertical-align: -24px
+      vertical-align: -29px
     }
 
     div:nth-child(3) img {
-      vertical-align: -28px
+      vertical-align: -34px;
+      padding-left: 2px;
     }
 
     div:nth-child(4) img {
-      vertical-align: -15px
+      vertical-align: -22px;
+      margin-right: -7px;
     }
 
     div:nth-child(5) img {
@@ -95,4 +100,5 @@
     }
   }
 
+}
 }

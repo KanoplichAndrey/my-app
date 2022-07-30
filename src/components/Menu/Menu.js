@@ -1,17 +1,10 @@
 import React from 'react';
 
-const Menu = () => {
-  const menuItems = [
-    'Home',
-    'Features',
-    'Pricing',
-    'About Us'
-  ];
-
+const Menu = (props) => {
   return (
         <ul>
             {/* <NavLink to= {'/' + value}>{value}  </NavLink> */}
-            {menuItems.map((value, index) => {
+            {props.menuItems.map((value, index) => {
               return <li key={index}><a href={'#' + value}>{value}  </a> </li>;
             })}
         </ul>

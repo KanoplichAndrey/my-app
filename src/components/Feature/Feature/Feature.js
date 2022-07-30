@@ -3,38 +3,13 @@ import s from './Feature.module.css';
 import { VerticalSwipeToSlide } from './Slider1';
 import Button from '../../button/Button';
 
-const array = [
-  {
-    contentHeader: 'First Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More'
-  },
-  {
-    contentHeader: 'Second Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More'
-  },
-  {
-    contentHeader: 'First Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More'
-  }, {
-    contentHeader: 'First Feature ',
-    contentContent: 'Gorgeous, high-quality design system for mobile, tablet and desktop devices a few reasons',
-    link: 'https://en.wikipedia.org/wiki/Tom_and_Jerry',
-    contentFooter: 'Learn More'
-  }
-];
-
-const Feature = () => {
-  return (
-    <div className={s.Feature} id='Features'>
+const Feature = (props) => {
+  return (<div className={s.featureContainer} >
+  <div className={s.featureWra} p>
+    <div className={s.Feature } id='Features'>
       <div className={s.contentSlider}>
         <div className={s.cart}>
-          <VerticalSwipeToSlide array={array} />
+          <VerticalSwipeToSlide array={props.state.array} />
         </div>
       </div>
       <div className={s.content}>
@@ -48,7 +23,10 @@ const Feature = () => {
         </div>
           <Button text={'More Features'} customClass={s.button} />
       </div>
-    </div>);
+    </div>
+    </div>
+  </div>
+  );
 };
 
 export default Feature;

@@ -1,11 +1,16 @@
 @charset "UTF-8";
-.Content {
-  margin-top: 100px;
+.contentWrap {
+  margin: 0 auto;
+  max-width: 111rem;
 }
-.Content div:nth-child(1) {
+.contentWrap .Content {
+  margin-top: 100px;
+  max-width: 110.1rem;
+}
+.contentWrap .Content div:nth-child(1) {
   margin-bottom: 24px;
 }
-.Content div:nth-child(1) p {
+.contentWrap .Content div:nth-child(1) p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -15,14 +20,14 @@
   letter-spacing: -0.433333px;
   color: #27a759;
 }
-.Content div {
+.contentWrap .Content div {
   display: flex;
   justify-content: center;
 }
-.Content div:nth-child(2) {
+.contentWrap .Content div:nth-child(2) {
   margin-bottom: 21px;
 }
-.Content div:nth-child(2) h1 {
+.contentWrap .Content div:nth-child(2) h1 {
   width: 620px;
   height: 151px;
   font-family: "Inter";
@@ -33,10 +38,10 @@
   color: #1a1a1a;
   text-align: center;
 }
-.Content div:nth-child(3) {
+.contentWrap .Content div:nth-child(3) {
   margin-bottom: 24px;
 }
-.Content div:nth-child(3) p {
+.contentWrap .Content div:nth-child(3) p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -48,14 +53,14 @@
   width: 468px;
   height: 60px;
 }
-.Content .sd {
+.contentWrap .Content .sd {
   width: 168px;
   height: 56px;
   display: flex;
   align-items: center;
   position: relative;
 }
-.Content .sd .sf:after {
+.contentWrap .Content .sd .sf:after {
   content: "→";
   font-family: "Inter";
   font-style: normal;
@@ -69,7 +74,7 @@
   left: 104px;
   top: 10px;
 }
-.Content .sd .sf a {
+.contentWrap .Content .sd .sf a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -81,15 +86,14 @@
   border-bottom: 1px solid;
   color: #27a759;
 }
-.Content div:nth-child(4) {
+.contentWrap .Content div:nth-child(4) {
   margin-bottom: 33px;
 }
-
-.Wrap {
+.contentWrap .Wrap {
   display: flex;
   justify-content: center;
 }
-.Wrap .ipad {
+.contentWrap .Wrap .ipad {
   width: 926px;
   height: 695px;
   background: #4366e9;
@@ -97,59 +101,59 @@
   border-radius: 44.3368px 44.3368px 44.3368px 44.3368px;
   box-sizing: content-box;
 }
-.Wrap .ipad .gridWrap {
+.contentWrap .Wrap .ipad .gridWrap {
   display: grid;
   height: 100%;
   grid-template-columns: 71px 235px 382px 237px;
   grid-template-rows: 100%;
   grid-template-areas: "column1" "column2" "column3" "column4";
 }
-.Wrap .ipad .gridWrap .column1 {
+.contentWrap .Wrap .ipad .gridWrap .column1 {
   display: grid;
   justify-items: center;
   grid-template-rows: 12% 10% 0% 8% 2% 7% 3% 49% 5%;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(1) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(1) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(1) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(1) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(2) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(2) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(3) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(3) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(4) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(4) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(5) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(5) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(6) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(6) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(7) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(7) {
   display: grid;
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(8) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(8) {
   display: grid;
   align-self: end;
 }
-.Wrap .ipad .gridWrap .column1 img:nth-child(9) {
+.contentWrap .Wrap .ipad .gridWrap .column1 img:nth-child(9) {
   display: grid;
   align-self: end;
 }
-.Wrap .ipad .gridWrap .column2 {
+.contentWrap .Wrap .ipad .gridWrap .column2 {
   background-color: #ffffff;
   display: grid;
   justify-items: center;
@@ -157,19 +161,19 @@
   padding-left: 27px;
   padding-right: 27px;
 }
-.Wrap .ipad .gridWrap .column2 .IpadCart {
+.contentWrap .Wrap .ipad .gridWrap .column2 .IpadCart {
   align-self: center;
 }
-.Wrap .ipad .gridWrap .column2 .line {
+.contentWrap .Wrap .ipad .gridWrap .column2 .line {
   width: 180px;
   border-top: solid 1px #ededed;
   margin-top: 5px;
 }
-.Wrap .ipad .gridWrap .column2 .IconePerson {
+.contentWrap .Wrap .ipad .gridWrap .column2 .IconePerson {
   width: 39px;
   height: 39px;
 }
-.Wrap .ipad .gridWrap .column2 .online span:nth-child(1) {
+.contentWrap .Wrap .ipad .gridWrap .column2 .online span:nth-child(1) {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -178,7 +182,7 @@
   letter-spacing: -0.220315px;
   color: #1a1a1a;
 }
-.Wrap .ipad .gridWrap .column2 .online span:nth-child(2) {
+.contentWrap .Wrap .ipad .gridWrap .column2 .online span:nth-child(2) {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -190,13 +194,13 @@
   margin-left: 85px;
   margin-bottom: 2px;
 }
-.Wrap .ipad .gridWrap .column2 .online .gridicon {
+.contentWrap .Wrap .ipad .gridWrap .column2 .online .gridicon {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 8px;
   margin-top: 11px;
 }
-.Wrap .ipad .gridWrap .column2 .Chats p {
+.contentWrap .Wrap .ipad .gridWrap .column2 .Chats p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -205,7 +209,7 @@
   letter-spacing: -0.220315px;
   color: #1a1a1a;
 }
-.Wrap .ipad .gridWrap .column3 {
+.contentWrap .Wrap .ipad .gridWrap .column3 {
   background: #ffffff;
   display: grid;
   border-left: 1px solid #ededed;
@@ -214,17 +218,17 @@
   width: 100%;
   justify-content: center;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 {
   width: 328px;
   height: 100%;
   display: grid;
   grid-template-rows: 9% 5% 4% 11.5% 3% 6% 3% 8.5% 3% 10% 3% 8% 3.5% 6% 3% 11.3%;
   align-items: flex-end;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 .col3Input {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 .col3Input {
   height: 32px;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(3) p {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(3) p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -232,9 +236,9 @@
   line-height: 23px;
   /* or 142% */
   letter-spacing: -0.293753px;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 .chat {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 .chat {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -243,7 +247,7 @@
   letter-spacing: -0.146877px;
   color: #767676;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(4) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(5) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(7) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(8) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(9) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(10) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(11) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(12) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(13) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(14) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(15) p {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(4) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(5) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(7) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(8) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(9) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(10) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(11) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(12) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(13) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(14) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(15) p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -253,38 +257,39 @@
   border-radius: 1px;
   color: #767676;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(4), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(8), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(12) {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(4), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(8), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(12) {
   display: grid;
   justify-content: flex-start;
   grid-template-columns: minmax(0px, 217px);
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(4) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(8) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(12) p {
-  color: #FEFEFE;
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(4) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(8) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(12) p {
+  color: #fefefe;
   padding: 12px;
-  background: #1A1A1A;
+  background: #1a1a1a;
   border-radius: 8.1347px 8.1347px 8.1347px 0px;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(5), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(9), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(13) {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(5), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(9), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(13) {
   display: grid;
   justify-content: flex-start;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(10), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(14) {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(10), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(14) {
   display: grid;
   justify-content: flex-end;
   grid-template-columns: minmax(0px, 217px);
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(10) p, .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(14) p {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(6) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(10) p, .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(14) p {
   background: rgb(12, 173, 133);
   padding: 12px;
-  background: #E7EBFC;
-  color: #1A1A1A;
+  background: #e7ebfc;
+  color: #1a1a1a;
+  justify-self: end;
   border-radius: 8.1347px 8.1347px 0px 8.1347px;
 }
-.Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(7), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(11), .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(15) {
+.contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(7), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(11), .contentWrap .Wrap .ipad .gridWrap .column3 .wrapcolumn3 div:nth-child(15) {
   display: grid;
   justify-content: flex-end;
 }
-.Wrap .ipad .gridWrap .column4 {
+.contentWrap .Wrap .ipad .gridWrap .column4 {
   background-color: #ffffff;
   display: grid;
   grid-template-rows: 11% 21.5% 7.5% 4.7% 24% 8% 5% 10%;
@@ -292,15 +297,15 @@
   padding-right: 27px;
   border-radius: 0px 17.3368px 17.3368px 0px;
 }
-.Wrap .ipad .gridWrap .column4 .gap {
+.contentWrap .Wrap .ipad .gridWrap .column4 .gap {
   display: grid;
 }
-.Wrap .ipad .gridWrap .column4 .dateWrap {
+.contentWrap .Wrap .ipad .gridWrap .column4 .dateWrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
-.Wrap .ipad .gridWrap .column4 .dateWrap div:nth-child(1) {
+.contentWrap .Wrap .ipad .gridWrap .column4 .dateWrap div:nth-child(1) {
   display: grid;
   justify-items: start;
   font-family: "Inter";
@@ -311,34 +316,34 @@
   letter-spacing: -0.195835px;
   color: #767676;
 }
-.Wrap .ipad .gridWrap .column4 .dateWrap div:nth-child(2) {
+.contentWrap .Wrap .ipad .gridWrap .column4 .dateWrap div:nth-child(2) {
   display: grid;
   justify-items: end;
 }
-.Wrap .ipad .gridWrap .column4 .ipadcartwrap {
+.contentWrap .Wrap .ipad .gridWrap .column4 .ipadcartwrap {
   display: grid;
   justify-items: center;
   align-items: center;
 }
-.Wrap .ipad .gridWrap .column4 .line {
+.contentWrap .Wrap .ipad .gridWrap .column4 .line {
   width: 180px;
   border-top: solid 1px #ededed;
   margin-top: 24px;
 }
-.Wrap .ipad .gridWrap .column4 .sharedWrap {
+.contentWrap .Wrap .ipad .gridWrap .column4 .sharedWrap {
   display: grid;
   grid-template-columns: 90px 90px;
 }
-.Wrap .ipad .gridWrap .column4 .sharedWrap .shared {
+.contentWrap .Wrap .ipad .gridWrap .column4 .sharedWrap .shared {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 12.2021px;
   line-height: 19px;
   letter-spacing: -0.220315px;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
-.Wrap .ipad .gridWrap .column4 .sharedWrap .href {
+.contentWrap .Wrap .ipad .gridWrap .column4 .sharedWrap .href {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -346,27 +351,27 @@
   line-height: 16px;
   text-align: right;
   letter-spacing: -0.171356px;
-  color: #133FE3;
+  color: #133fe3;
   text-decoration: none;
 }
-.Wrap .ipad .gridWrap .column4 .cont {
+.contentWrap .Wrap .ipad .gridWrap .column4 .cont {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.Wrap .ipad .gridWrap .column4 .contInf {
+.contentWrap .Wrap .ipad .gridWrap .column4 .contInf {
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
-.Wrap .ipad .gridWrap .column4 .contInf p:nth-child(1) {
+.contentWrap .Wrap .ipad .gridWrap .column4 .contInf p:nth-child(1) {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 10.8463px;
   line-height: 18px;
   letter-spacing: -0.195835px;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
-.Wrap .ipad .gridWrap .column4 .contInf p:nth-child(2) {
+.contentWrap .Wrap .ipad .gridWrap .column4 .contInf p:nth-child(2) {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -377,7 +382,7 @@
   color: #767676;
   justify-self: start;
 }
-.Wrap .ipad .gridWrap .column4 .contcart .profession {
+.contentWrap .Wrap .ipad .gridWrap .column4 .contcart .profession {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

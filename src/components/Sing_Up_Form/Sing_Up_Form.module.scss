@@ -1,13 +1,18 @@
+.SingUpFormContainer{
+  background: #E5E5E5;
+}
 .SingUpForm {
   display: flex;
   justify-content: space-between;
   background: #E5E5E5;
-
+  max-width: 111rem;
+  margin: 0 auto;
   .FormWrap {
     display: flex;
     flex-direction: column;
-    padding-left: 145px;
+    // padding-left: 145px;
     padding-top: 100px;
+    margin-right: 110px;
 
     & h3 {
       width: 445px;
@@ -69,7 +74,9 @@
 
       }
 
-
+      .hhh{
+        padding-bottom: 100px;
+      }
       input {
         border: 1px solid #D2D2D2;
         border-radius: 6px;
@@ -85,6 +92,10 @@
 
   .picture {
     padding-top: 71px;
+    img{
+      max-width: 100%;
+      height: 100%;
+    }
   }
 }
 

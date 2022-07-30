@@ -4,7 +4,7 @@ import Button from '../button/Button';
 import Menu from '../Menu/Menu';
 import s from './Header.module.css';
 const Header = () => {
-  return (
+  return (<header className={s.headerWrap}>
       <nav className={s.Header} id="Home">
          <a href="#" className={s.logo}>
             <img title="my-img" src={logo} alt="my-img" />
@@ -20,6 +20,7 @@ const Header = () => {
             <div></div>
          </div>
       </nav>
+  </header>
   );
 };
 

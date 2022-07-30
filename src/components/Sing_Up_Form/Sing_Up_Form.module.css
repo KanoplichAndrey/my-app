@@ -1,13 +1,19 @@
+.SingUpFormContainer {
+  background: #E5E5E5;
+}
+
 .SingUpForm {
   display: flex;
   justify-content: space-between;
   background: #E5E5E5;
+  max-width: 111rem;
+  margin: 0 auto;
 }
 .SingUpForm .FormWrap {
   display: flex;
   flex-direction: column;
-  padding-left: 145px;
   padding-top: 100px;
+  margin-right: 110px;
 }
 .SingUpForm .FormWrap h3 {
   width: 445px;
@@ -57,6 +63,9 @@
   color: #1A1A1A;
   margin-bottom: 10px;
 }
+.SingUpForm .FormWrap .SingUpWrap .hhh {
+  padding-bottom: 100px;
+}
 .SingUpForm .FormWrap .SingUpWrap input {
   border: 1px solid #D2D2D2;
   border-radius: 6px;
@@ -66,4 +75,8 @@
 }
 .SingUpForm .picture {
   padding-top: 71px;
+}
+.SingUpForm .picture img {
+  max-width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=Sing_Up_Form.module.css.map */

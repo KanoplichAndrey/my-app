@@ -1,23 +1,9 @@
 import React, { useState } from 'react';
 
-const SelectPeriud = () => {
-  const cartPrising = [
-    'Month',
-    '1',
-    '2',
-    '3',
-    '5',
-    '6',
-    '7',
-    '8',
-    '9',
-    '10',
-    '11',
-    '12'
-  ];
+const SelectTeammates = (props) => {
+  const SelectTeammates = ['User 1', 'User 2', 'User 3'];
   const [value, setValue] = useState(' ');
-
-  const options = cartPrising.map((text, index) => {
+  const options = SelectTeammates.map((text, index) => {
     return <option key={index}>{text}</option>;
   });
 
@@ -33,4 +19,4 @@ const SelectPeriud = () => {
   );
 };
 
-export default SelectPeriud;
+export default SelectTeammates;

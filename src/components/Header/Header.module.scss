@@ -1,71 +1,71 @@
-.logo {
-  width: 125px;
-  height: 55px;
-}
+// .logo {
+//   width: 125px;
+//   height: 55px;
+// }
 
-.Header {
-  // min-width: 100vh;
-  min-height: 16vh;
-  background: #F5F5F5;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
+// .Header {
+//   // max-width: 1400px;
+//   min-height: 16vh;
+//   background: #F5F5F5;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding-left: 10px;
+//   padding-right: 10px;
+//   position: sticky;
+//   top: 0;
+//   z-index: 1;
+// }
 
-.menu {
-  width: 324px;
-  height: 26px;
-  margin-left: 27px;
-}
+// .menu {
+//   width: 324px;
+//   height: 26px;
+//   margin-left: 27px;
+// }
 
-span a {
-  margin-left: -18px;
-  margin-right: 27px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: right;
-  letter-spacing: -0.288889px;
-  color: #1A1A1A;
-  text-decoration: none;
-}
+// span a {
+//   margin-left: -18px;
+//   margin-right: 27px;
+//   font-family: 'Inter';
+//   font-style: normal;
+//   font-weight: 600;
+//   font-size: 16px;
+//   line-height: 26px;
+//   text-align: right;
+//   letter-spacing: -0.288889px;
+//   color: #1A1A1A;
+//   text-decoration: none;
+// }
 
-.menu ul {
-  display: flex;
-  justify-content: space-between;
-}
+// .menu ul {
+//   display: flex;
+//   justify-content: space-between;
+// }
 
-.menu ul li a {
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 26px;
-  letter-spacing: -0.288889px;
-  color: #1A1A1A;
-  text-decoration: none;
-}
+// .menu ul li a {
+//   font-family: 'Inter';
+//   font-weight: 600;
+//   font-size: 16px;
+//   line-height: 26px;
+//   letter-spacing: -0.288889px;
+//   color: #1A1A1A;
+//   text-decoration: none;
+// }
 
-.menu ul li a:hover{
-    color: #27a759; 
-    text-decoration: underline 2px;
-  }
+// .menu ul li a:hover{
+//     color: #27a759; 
+//     text-decoration: underline 2px;
+//   }
 
-a:hover{
-  color: #27a759; 
-  text-decoration: underline 2px;
-}
-.button {
-  width: 89px;
-  height: 40px;
-  font-size: 14px;
-  letter-spacing: -0.252778px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+// a:hover{
+//   color: #27a759; 
+//   text-decoration: underline 2px;
+// }
+// .button {
+//   width: 89px;
+//   height: 40px;
+//   font-size: 14px;
+//   letter-spacing: -0.252778px;
+//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+// }
 

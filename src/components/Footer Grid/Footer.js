@@ -5,14 +5,15 @@ import iconlinkedin from '../../img/icon-linkedin.svg';
 import iconGoogle from '../../img/icon-Google.svg';
 import logo from '../../img/logo.svg';
 import s from './Footer.module.css';
-
+import Button from '../button copy/Button';
+// import state from '../../redux/state';
 const icons = [iconFacebook, iconTwitter, iconlinkedin, iconGoogle];
 
-const Footer = () => {
-  const textInfo = ['Privacy Policy', 'Terms of Conditions', 'Legal', 'Help'];
-  const textInfo1 = ['© 2020 All rights reserved'];
-
-  return <div className={s.Footer} id='About Us'>
+const Footer = (props) => {
+  const newf = React.createRef();
+  const addPost = () => { const text = newf.current.value; alert(text); };
+  return <div className={s.footerWrap}>
+  <div className={s.Footer} id='About Us'>
     <div className={s.wrap} >
       <div className='logo'>
         <img title="my-img" src={logo} alt="my-img" />
@@ -22,10 +23,10 @@ const Footer = () => {
           {icons.map((icon, index) => <img key={index} title="my-img" src={icon} alt="my-img" />)}
         </div>
         <div className={s.info}>
-          {textInfo.map((info, index) => <span key={index}>{info}</span>)}
+          {props.state.textInfo.map((info, index) => <span key={index}>{info}</span>)}
         </div>
         <div className={s.info2}>
-          <span>{textInfo1}</span>
+          <span>{props.state.textInfo1}</span>
         </div>
       </div>
       <div className={s.inputFooter}>
@@ -34,6 +35,16 @@ const Footer = () => {
         </form>
       </div>
     </div>
+  </div>
+
+  <Button className='fff' chidren={'button text'} onClick = {addPost} active/>
+        <br></br><br></br><textarea ref={newf}></textarea>
+
+        <br></br><br></br>
+        <div>
+
+         <p>{props.state.post.names}</p>
+        </div>
   </div>;
 };
 

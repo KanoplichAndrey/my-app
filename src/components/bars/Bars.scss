@@ -1,0 +1,39 @@
+
+  // .pos{
+  //   position: relative;
+  // }
+
+  .pos{
+
+    cursor: pointer;
+    // transition: 0.8s ease;
+    // height: 50px;
+    &:hover .bar {
+      box-shadow: 1px 1px 7px 1px RGBa(0, 0, 0, 40);
+    }
+  }
+    .bar {
+    
+            width: 55px;
+            height: 10px;
+            background: #1a1a1a;
+            box-shadow: 1px 1px 3px RGBa(0, 0, 0, 0.4);
+            border-radius: 1px;
+            transition: 0.4s ease;
+            &:not(:first-child) {
+                margin-top: 10px;
+              }
+              &:hover {
+                box-shadow: 1px 1px 7px 1px RGBa(0, 0, 0, 40);
+              } 
+
+    }
+
+    .btn.active{
+      // visibility: hidden;
+      background: aqua;
+      opacity: 1;
+       
+    }
+ 
+  

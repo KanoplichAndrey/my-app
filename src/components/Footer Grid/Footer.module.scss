@@ -1,71 +1,69 @@
-.Footer {
-  height: 186px;
-  background: #E5E5E5;
+.footerWrap {
+   background: #e5e5e5;
 
-  .wrap {
+   .Footer {
+      margin: 0 auto;
+      max-width: 140rem;
+      height: 186px;
+      .wrap {
+         display: grid;
+         grid-template-columns: 20% 60% 20%;
+         padding: 30px 15px 0px 15px;
 
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
-    padding: 30px 30px 0px 30px;
+         .footerContent {
+            display: grid;
+            grid-template-rows: 64px 40px 50px;
+            justify-items: center;
 
-    .footerContent {
-      display: grid;
-      grid-template-rows: 64px 40px 50px;
-      justify-items: center;
+            .icon {
+               display: grid;
+               grid-column-gap: 15px;
+               grid-template-columns: repeat(4, min-content);
+            }
 
+            div span {
+               font-family: "Inter";
+               font-style: normal;
+               font-weight: 400;
+               font-size: 14px;
+               line-height: 22px;
+               letter-spacing: -0.252778px;
+               color: #767676;
+            }
 
-      .icon {
-        display: grid;
-        grid-column-gap: 15px;
-        grid-template-columns: repeat(4, min-content);
-        
+            .info {
+               display: grid;
+               grid-column-gap: 18px;
+               grid-template-columns: repeat(4, max-content);
+            }
+
+            .info2 {
+               display: grid;
+               grid-template-columns: repeat(1, max-content);
+            }
+         }
+
+         .inputFooter {
+            display: grid;
+            justify-self: end;
+         }
+
+         input {
+            background: url("../../img/Path.svg") no-repeat center;
+            background-position: 150px 50%;
+            width: 180px;
+            height: 40px;
+            border: solid 1px #d2d2d2;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.288889px;
+            color: #767676;
+            padding-left: 14px;
+            border-radius: 6px;
+         }
       }
-
-      div span {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
-        letter-spacing: -0.252778px;
-        color: #767676;
-      }
-
-      .info {
-        display: grid;
-        grid-column-gap: 18px;
-        grid-template-columns: repeat(4, max-content);
-      }
-
-      .info2 {
-        display: grid;
-        grid-template-columns: repeat(1, max-content);
-      }
-    }
-
-    .inputFooter {
-      display: grid;
-      justify-self: end;
-    }
-
-    input {
-      background: url('../../img/Path.svg') no-repeat center;
-      background-position: 150px 50%;
-      width: 180px;
-      height: 40px;
-      border: solid 1px #D2D2D2;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-      letter-spacing: -0.288889px;
-      color: #767676;
-      padding-left: 14px;
-      border-radius: 6px;
-
-    }
-
-  }
-
+   }
 }

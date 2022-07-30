@@ -1,22 +1,27 @@
-.Feature {
+.featureWra {
+  margin: 0 auto;
+  max-width: 127rem;
+}
+.featureWra .Feature {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 100px;
   height: 600px;
   overflow: hidden;
   position: relative;
   background: white;
   margin-top: -445px;
+  transition: 1.8s ease;
 }
-.Feature .contentSlider {
+.featureWra .Feature .contentSlider {
   padding-left: 145px;
   margin-right: 101px;
 }
-.Feature .content div:nth-child(1) {
+.featureWra .Feature .content div:nth-child(1) {
   margin-bottom: 24px;
   margin-right: 145px;
 }
-.Feature .content div:nth-child(1) h2 {
+.featureWra .Feature .content div:nth-child(1) h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -27,11 +32,11 @@
   width: 730px;
   height: 124px;
 }
-.Feature .content div:nth-child(2) {
+.featureWra .Feature .content div:nth-child(2) {
   margin-right: 240px;
   margin-bottom: 37px;
 }
-.Feature .content div:nth-child(2) p {
+.featureWra .Feature .content div:nth-child(2) p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -42,7 +47,7 @@
   width: 635px;
   height: 90px;
 }
-.Feature .content .button {
+.featureWra .Feature .content .button {
   width: 149px;
   height: 48px;
   font-style: normal;

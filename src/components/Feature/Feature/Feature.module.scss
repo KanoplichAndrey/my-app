@@ -1,14 +1,22 @@
+.featureContainer{
+  // background: #1A1A1A;
+}
+.featureWra{
+  margin: 0 auto;
+  max-width: 127rem;
+  // max-width: 111rem;
 .Feature {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 100px;
   height: 600px;
   overflow: hidden;
   position: relative;
-
   background: white;
   margin-top: -445px;
-  
+  transition: 1.8s ease;
+  // margin-left: 0px;
+  // margin-right: 0px;
 
   .contentSlider {
     padding-left: 145px;
@@ -63,4 +71,5 @@
     }
 
   }
+}
 }

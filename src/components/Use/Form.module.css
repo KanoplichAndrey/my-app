@@ -57,6 +57,7 @@ input:not(:last-child) {
   height: 56px;
   justify-content: space-between;
   margin-top: 37px;
+  padding-bottom: 100px;
 }
 .clearfix .btn {
   width: 112px;
@@ -74,8 +75,4 @@ input:not(:last-child) {
 }
 .clearfix p:last-child a {
   color: rgb(39, 167, 89);
-}
-
-.picture {
-  padding-top: 71px;
 }/*# sourceMappingURL=Form.module.css.map */
