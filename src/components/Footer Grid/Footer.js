@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 import React from 'react';
 import iconFacebook from '../../img/icon-Facebook.svg';
 import iconTwitter from '../../img/icon-Twitter.svg';
@@ -11,7 +12,10 @@ const icons = [iconFacebook, iconTwitter, iconlinkedin, iconGoogle];
 const Footer = (props) => {
   const newf = React.createRef();
 
-  function addPost () { const text = newf.current.value; props.addPost(text); }
+  function addPost () {
+    debugger;
+    props.addPost(newf.current.value);
+  }
 
   return <div className={s.footerWrap}>
   <div className={s.Footer} id='About Us'>

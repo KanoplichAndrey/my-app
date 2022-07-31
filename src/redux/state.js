@@ -1,4 +1,5 @@
 
+import { renderEntireTree } from '../render';
 const state = {
   header: {
     menuItems: [
@@ -155,6 +156,7 @@ export const addPost = (postMessage) => {
 
   };
   state.footer.post.push(newPost);
+  renderEntireTree(state);
 };
 
 export default state;
