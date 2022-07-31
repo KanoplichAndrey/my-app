@@ -6,12 +6,12 @@ import iconGoogle from '../../img/icon-Google.svg';
 import logo from '../../img/logo.svg';
 import s from './Footer.module.css';
 import Button from '../button copy/Button';
-// import state from '../../redux/state';
 const icons = [iconFacebook, iconTwitter, iconlinkedin, iconGoogle];
 
 const Footer = (props) => {
   const newf = React.createRef();
-  function addPost () { const text = newf.current.value; props.addPost({ text }); console.log(text); }
+
+  function addPost () { const text = newf.current.value; props.addPost(text); }
 
   return <div className={s.footerWrap}>
   <div className={s.Footer} id='About Us'>

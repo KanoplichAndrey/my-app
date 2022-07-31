@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import state, { addPost } from './redux/state';
 
-addPost('hhhhhhhhhhhh');
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
@@ -16,3 +14,4 @@ root.render(
   </React.StrictMode>
 
 );
+console.log(addPost);
