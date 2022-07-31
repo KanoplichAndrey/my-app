@@ -11,7 +11,8 @@ const icons = [iconFacebook, iconTwitter, iconlinkedin, iconGoogle];
 
 const Footer = (props) => {
   const newf = React.createRef();
-  const addPost = () => { const text = newf.current.value; alert(text); };
+  function addPost () { const text = newf.current.value; props.addPost({ text }); console.log(text); }
+
   return <div className={s.footerWrap}>
   <div className={s.Footer} id='About Us'>
     <div className={s.wrap} >
@@ -43,7 +44,7 @@ const Footer = (props) => {
         <br></br><br></br>
         <div>
 
-         <p>{props.state.post.names}</p>
+        {props.state.post.map((p) => <p key={p.names}>{p.names}</p>)}
         </div>
   </div>;
 };

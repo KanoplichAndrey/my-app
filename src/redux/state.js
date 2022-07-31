@@ -155,7 +155,6 @@ export const addPost = (postMessage) => {
 
   };
   state.footer.post.push(newPost);
-  // alert(newPost.names);
 };
 
 export default state;

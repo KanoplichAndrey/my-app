@@ -30,7 +30,7 @@ function App (props) {
         <Pricing />
         <CTA />
         <Testimonials state={props.state.testimonials}/>
-        <Footer state={props.state.footer} />
+        <Footer state={props.state.footer} addPost={props.addPost} />
 
       </div>
        </BrowserRouter>
