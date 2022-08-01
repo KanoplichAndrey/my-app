@@ -24,14 +24,12 @@ function App (props) {
       <div className='app-wrapper' id='Home'>
         <Header state={props.state.header} />
         <Content state={props.state.content} />
-
         <Feature state={props.state.feature}/>
         <SingUpForm />
         <Pricing />
         <CTA />
         <Testimonials state={props.state.testimonials}/>
-        <Footer state={props.state.footer} addPost={props.addPost} />
-
+        <Footer state={props.state.footer} addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>
       </div>
        </BrowserRouter>
   );

@@ -13,9 +13,15 @@ const Footer = (props) => {
   const newf = React.createRef();
 
   function addPost () {
-    debugger;
-    props.addPost(newf.current.value);
+    // const text = newf.current.value;
+    props.addPost();
+    props.updateNewPostText('');
   }
+
+  const onPostChange = () => {
+    const text = newf.current.value;
+    props.updateNewPostText(text);
+  };
 
   return <div className={s.footerWrap}>
   <div className={s.Footer} id='About Us'>
@@ -43,7 +49,7 @@ const Footer = (props) => {
   </div>
 
   <Button className='fff' chidren={'button text'} onClick = {addPost} active/>
-        <br></br><br></br><textarea ref={newf}></textarea>
+        <br></br><br></br><textarea ref={newf} value={props.state.newPostText} onChange={onPostChange}/>
 
         <br></br><br></br>
         <div>

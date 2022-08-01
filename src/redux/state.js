@@ -143,19 +143,23 @@ const state = {
   footer: {
     textInfo: ['Privacy Policy', 'Terms of Conditions', 'Legal', 'Help'],
     textInfo1: ['© 2020 All rights reserved'],
-    post: [{ names: 'andrey' }]
-
+    post: [{ names: 'andrey' }],
+    newPostText: ['7ujmn pole']
   }
 
 };
-
-export const addPost = (postMessage) => {
+window.state = state;
+export const addPost = () => {
   const newPost = {
-
-    names: postMessage
-
+    names: state.footer.newPostText
   };
   state.footer.post.push(newPost);
+  state.footer.newPostText = '';
+  renderEntireTree(state);
+};
+
+export const updateNewPostText = (newText) => {
+  state.footer.newPostText = newText;
   renderEntireTree(state);
 };
 
