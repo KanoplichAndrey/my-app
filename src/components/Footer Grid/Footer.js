@@ -49,7 +49,7 @@ const Footer = (props) => {
   </div>
 
   <Button className='fff' chidren={'button text'} onClick = {addPost} active/>
-        <br></br><br></br><textarea ref={newf} value={props.state.newPostText} onChange={onPostChange}/>
+        <br></br><br></br><textarea onChange={onPostChange} ref={newf} value={props.state.newPostText} />
 
         <br></br><br></br>
         <div>

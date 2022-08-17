@@ -15,8 +15,10 @@ import Testimonials from './components/Testimonials/Testimonials/Testimonials';
 import Footer from './components/Footer Grid/Footer';
 import Header from './components/Header copy/Header';
 // import Button from './components/button copy/Button';
+import Appcopy from './Appcopy';
+import Appcopycopy from './Appcopycopy';
+import Appcopycopycopy from './Appcopycopycopy';
 import { BrowserRouter } from 'react-router-dom';
-
 function App (props) {
   return (
 
@@ -30,6 +32,9 @@ function App (props) {
         <CTA />
         <Testimonials state={props.state.testimonials}/>
         <Footer state={props.state.footer} addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>
+        <Appcopy />
+        <Appcopycopy />
+        <Appcopycopycopy />
       </div>
        </BrowserRouter>
   );
