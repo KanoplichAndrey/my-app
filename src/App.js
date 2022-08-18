@@ -24,7 +24,7 @@ function App (props) {
 
   <BrowserRouter>
       <div className='app-wrapper' id='Home'>
-        <Header state={props.state.header} />
+        <Header />
         <Content state={props.state.content} />
         <Feature state={props.state.feature}/>
         <SingUpForm />
