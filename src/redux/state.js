@@ -1,8 +1,7 @@
 
 import { renderEntireTree } from '../render';
-// eslint-disable-next-line no-unused-vars
-import { useEffect, useState } from 'react';
-const state = {
+
+export const state = {
   header: {
     menuItems: [
       'Home',
@@ -164,29 +163,6 @@ export const addPost = () => {
 export const updateNewPostText = (newText) => {
   state.footer.newPostText = newText;
   renderEntireTree(state);
-};
-
-export const m = [
-  'Home',
-  'Features',
-  'Pricing',
-  'About Us'
-];
-export const Ggg = () => {
-  const [menu, setMenu] = useState([]);
-
-  useEffect(() => {
-    // setTimeout(() => {
-    setMenu([
-      'Home',
-      'Features',
-      'Pricing',
-      'About Us'
-    ]);
-    // }, 10000);
-  }, [menu]);
-  // eslint-disable-next-line react/react-in-jsx-scope
-  return <> {menu}</>;
 };
 
 export default state;

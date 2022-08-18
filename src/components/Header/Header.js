@@ -4,14 +4,14 @@ import Button from '../button/Button';
 import Menu from '../Menu/Menu';
 import s from './Header.module.css';
 
-const Header = ({ Ggg }) => {
+const Header = () => {
   return (<header className={s.headerWrap}>
       <nav className={s.Header} id="Home">
          <a href="#" className={s.logo}>
             <img title="my-img" src={logo} alt="my-img" />
          </a>
          <div className={s.menu}>
-            <Menu ggg={Ggg}/>
+            <Menu />
          </div>
          <div>
             <span>
