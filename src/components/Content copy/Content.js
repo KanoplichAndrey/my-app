@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import s from './Content.module.css';
 import bell from '../../img/iPad/bell.svg';
 import flash from '../../img/iPad/flash.svg';
@@ -11,56 +11,70 @@ import bellGRAY from '../../img/iPad/bellGRAY.svg';
 import IconePerso from '../IconePerson/IconePerso';
 import Input from '../input/Input';
 import CartIPad from '../CartIPad/CartIPad';
+import { getIconePerson, getArray1, getArray2 } from '../../servis/servis';
 
 const icons = [Logo, grid, flash, search, bell, pricetags, grid, grid, grid];
-const iconePerso = ['IconePerson', 'IconePerson', 'IconePerson', 'IconePerson'];
-const array1 = [
-  {
-    infoPerson: 'John Shinoda',
-    time: 'Hey man, how R U???…',
-    profession: '10:20'
-  },
-  {
-    infoPerson: 'Dina Harrison',
-    time: 'Hey, call me please…',
-    profession: '10:20'
-  },
-  {
-    infoPerson: 'Mandy Guoles',
-    time: 'Let me be alone, please…',
-    profession: '10:20'
-  },
-  {
-    infoPerson: 'Sam Pettersen',
-    time: 'Hey dude, where is my…',
-    profession: '10:20'
-  }
-];
+// const iconePerso = ['IconePerson', 'IconePerson', 'IconePerson', 'IconePerson'];
+// const array1 = [
+//   {
+//     infoPerson: 'John Shinoda',
+//     time: 'Hey man, how R U???…',
+//     profession: '10:20'
+//   },
+//   {
+//     infoPerson: 'Dina Harrison',
+//     time: 'Hey, call me please…',
+//     profession: '10:20'
+//   },
+//   {
+//     infoPerson: 'Mandy Guoles',
+//     time: 'Let me be alone, please…',
+//     profession: '10:20'
+//   },
+//   {
+//     infoPerson: 'Sam Pettersen',
+//     time: 'Hey dude, where is my…',
+//     profession: '10:20'
+//   }
+// ];
 
-const array2 = [
-  {
-    infoPerson: 'PhotoDanver.jpg',
-    time: '10.12.2020 at 11:43',
-    profession: '175 Kb'
-  },
-  {
-    infoPerson: 'PhotoDanver.jpg',
-    time: '10.12.2020 at 11:43',
-    profession: '175 Kb'
-  },
-  {
-    infoPerson: 'PhotoDanver.jpg',
-    time: '10.12.2020 at 11:43',
-    profession: '175 Kb'
-  },
-  {
-    infoPerson: 'PhotoDanver.jpg',
-    time: '10.12.2020 at 11:43',
-    profession: '175 Kb'
-  }
-];
+// const array2 = [
+//   {
+//     infoPerson: 'PhotoDanver.jpg',
+//     time: '10.12.2020 at 11:43',
+//     profession: '175 Kb'
+//   },
+//   {
+//     infoPerson: 'PhotoDanver.jpg',
+//     time: '10.12.2020 at 11:43',
+//     profession: '175 Kb'
+//   },
+//   {
+//     infoPerson: 'PhotoDanver.jpg',
+//     time: '10.12.2020 at 11:43',
+//     profession: '175 Kb'
+//   },
+//   {
+//     infoPerson: 'PhotoDanver.jpg',
+//     time: '10.12.2020 at 11:43',
+//     profession: '175 Kb'
+//   }
+// ];
 
-const Content = () => (
+const Content = () => {
+  const [IconePersons, setIconepersons] = useState([]);
+  const [array1, setArray1] = useState([]);
+  const [array2, setArray2] = useState([]);
+  useEffect(() => {
+    const servisIconePersons = getIconePerson();
+    setIconepersons(servisIconePersons);
+    const servisarray1 = getArray1();
+    setArray1(servisarray1);
+    const servisarray2 = getArray2();
+    setArray2(servisarray2);
+  }, []);
+  return (
+
    <div>
       <div className={s.Content}>
          <div>
@@ -102,12 +116,11 @@ const Content = () => (
                      <span>Friends Online</span>
                      <span>23</span>
                      <div className={s.gridicon}>
-                        {iconePerso.map((item, i) => (
+                        {IconePersons.map((item, i) => (
                            <IconePerso
                               customClass={s.IconePerson}
                               {...item}
-                              key={i}
-                           />
+                              key={i} />
                         ))}
                      </div>
                   </div>
@@ -285,6 +298,7 @@ const Content = () => (
          </div>
       </div>
    </div>
-);
+  );
+};
 
 export default Content;

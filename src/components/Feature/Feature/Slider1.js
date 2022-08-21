@@ -1,9 +1,10 @@
-import React from 'react';
+import { React, useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Cart from '../Cart/Cart';
-export const VerticalSwipeToSlide = ({ array }) => {
+import { getArrayBase1 } from '../../../servis/servis';
+export const VerticalSwipeToSlide = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -16,6 +17,12 @@ export const VerticalSwipeToSlide = ({ array }) => {
     Infinity: true
 
   };
+  const [array, setArray] = useState([]);
+
+  useEffect(() => {
+    const servisArray = getArrayBase1();
+    setArray(servisArray);
+  }, []);
 
   return (
             <div className={'Slider1'}>

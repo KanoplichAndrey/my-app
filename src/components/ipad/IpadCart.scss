@@ -15,12 +15,11 @@
     border-radius: 50%;
     margin-right: 0px;
     margin-top: 3px;
+    
    }
 
    .default-infoperson{
-    ul li:nth-child(1){
-      font-family: 'Inter';
-      font-style: normal;
+    ul li:nth-child(1) a{
       font-weight: 600;
       font-size: 16.2694px;
       line-height: 23px;
@@ -28,11 +27,10 @@
       letter-spacing: -0.293753px;
       color: #1A1A1A;
       // margin-bottom: 2px;
+      text-decoration: none;
     }
 
-    ul li:nth-child(2){
-    font-family: 'Inter';
-    font-style: normal;
+    ul li:nth-child(2) a{
     font-weight: 500;
     font-size: 13.5578px;
     line-height: 16px;
@@ -40,8 +38,9 @@
     letter-spacing: -0.244794px;
     color: #767676;
     // margin-bottom: 3px;
+    text-decoration: none;
     }
-
+    
     
    }
 

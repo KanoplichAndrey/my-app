@@ -2,17 +2,17 @@ import React from 'react';
 import s from './Cart.module.css';
 import IconePerson from '../CartTestemonials/IconePerson';
 
-const Cart = (props) => {
+const Cart = ({ ContentCart, infoPerson, profession }) => {
   return (
       <div className={s.cart}>
          <div className={s.ContentCart}>
-            <p>{props.ContentCart}</p>
+            <p>{ContentCart}</p>
          </div>
          <div className={s.wrapPerson}>
             <IconePerson />
             <div className={s.infoPerson}>
-               <p>{props.infoPerson}</p>
-               <p>{props.profession}</p>
+               <p>{infoPerson}</p>
+               <p>{profession}</p>
             </div>
          </div>
       </div>

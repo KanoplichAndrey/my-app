@@ -17,7 +17,7 @@ const CartIPad = ({
   return (
       <div className={`${commonClass1} ${customClass}`}>
          {text}
-         <IconePerso customClass="ff" />
+         <IconePerso />
          <div className={`${commonClass} ${customClass}`}>
             {text}
             <div className={`${commonClass2} ${customClass}`}>

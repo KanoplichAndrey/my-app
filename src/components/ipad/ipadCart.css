@@ -16,23 +16,21 @@
   margin-right: 0px;
   margin-top: 3px;
 }
-.default-ipad .default-infoperson ul li:nth-child(1) {
-  font-family: "Inter";
-  font-style: normal;
+.default-ipad .default-infoperson ul li:nth-child(1) a {
   font-weight: 600;
   font-size: 16.2694px;
   line-height: 23px;
   text-align: center;
   letter-spacing: -0.293753px;
   color: #1A1A1A;
+  text-decoration: none;
 }
-.default-ipad .default-infoperson ul li:nth-child(2) {
-  font-family: "Inter";
-  font-style: normal;
+.default-ipad .default-infoperson ul li:nth-child(2) a {
   font-weight: 500;
   font-size: 13.5578px;
   line-height: 16px;
   text-align: center;
   letter-spacing: -0.244794px;
   color: #767676;
+  text-decoration: none;
 }/*# sourceMappingURL=IpadCart.css.map */

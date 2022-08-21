@@ -1,19 +1,19 @@
 import React from 'react';
 import s from '../Cart/cart.module.css';
 
-const Cart = (props) => {
+const Cart = ({ contentHeader, contentContent, link, contentFooter }) => {
   return (
       <div className={s.Cart}>
          <div>
-            <p> {props.contentHeader} </p>
+            <p> {contentHeader} </p>
          </div>
          <div>
-            <p> {props.contentContent} </p>
+            <p> {contentContent} </p>
          </div>
          <div>
             <ul>
                <li>
-                  <a href={props.link}>{props.contentFooter} </a>
+                  <a href={link}>{contentFooter} </a>
                </li>
             </ul>
          </div>

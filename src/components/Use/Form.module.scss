@@ -52,13 +52,33 @@
    .b{
     background: url('../../img/Mail.svg') no-repeat center right ;
     background-position: 310px 50%;
-  
-  }
-
-  .c{
-    background: url('../../img/Eye_off.svg') no-repeat;
-    background-position: 310px 50%;
     
+  }
+.j{
+  position: relative;
+}
+  .c{
+    position: absolute;
+    top: 17px;
+    right: 114px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../../img/Eye_off.svg') 0, 0, no-repeat;
+
+  }
+  .h{
+    background: #E5E5E5;
+  }
+  .k{
+    position: absolute;
+    top: 17px;
+    right: 114px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../../img/Eye_on.svg') 0, 0, no-repeat;
+   
   }
 
   input:not(:last-child) {

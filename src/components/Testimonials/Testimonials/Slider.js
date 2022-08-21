@@ -1,16 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Cart from '../Cart/Cart';
-// import s from'./Slider.module.css';
-// import RenderCart from "../RenderCart";
-// import background from "../../../img/Arrow_back.svg";
+import { getArrayBase2 } from '../../../servis/servis';
 
 const arrowSize = '50px';
 
-function SampleNextArrow (props) {
-  const { className, onClick } = props;
+function SampleNextArrow ({ className, onClick }) {
+  // const { className, onClick } = props;
 
   return (
         <div
@@ -32,7 +30,7 @@ function SamplePrevArrow (props) {
   );
 }
 
-export const FocusOnSelect = ({ array }) => {
+export const FocusOnSelect = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -44,33 +42,12 @@ export const FocusOnSelect = ({ array }) => {
     // variableWidth: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
-    // responsive: [
-    //     {
-    //       breakpoint: 1024,
-    //       settings: {
-    //         slidesToShow: 3,
-    //         slidesToScroll: 3,
-    //         infinite: true,
-    //         dots: true
-    //       }
-    //     },
-    //     {
-    //       breakpoint: 600,
-    //       settings: {
-    //         slidesToShow: 2,
-    //         slidesToScroll: 2,
-    //         initialSlide: 2
-    //       }
-    //     },
-    //     {
-    //       breakpoint: 480,
-    //       settings: {
-    //         slidesToShow: 1,
-    //         slidesToScroll: 1
-    //       }
-    //     }
-    //   ]
   };
+  const [array, setArray] = useState([]);
+  useEffect(() => {
+    const servisArray = getArrayBase2();
+    setArray(servisArray);
+  }, []);
   return (
             <div className={'mySlider'}>
             <Slider {...settings}>

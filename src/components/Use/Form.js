@@ -1,8 +1,18 @@
-import React from 'react';
+import { React, useState } from 'react';
 import s from './Form.module.css';
 import { useForm } from 'react-hook-form';
 import Button from '../button/Button';
+
 const Form = () => {
+  const [state, useStatee] = useState(true);
+  function showhidepassword (e) {
+    useStatee(!state);
+    e.preventDefault();
+  };
+  // useEffect(() => {
+
+  // }, []);
+
   const {
     register,
     formState: { errors }, // isValid
@@ -46,7 +56,8 @@ const Form = () => {
                     {errors.EMAIL && <span>{errors.EMAIL.message || 'Error!'}</span>}
                 </div>
                 <label ><b>Password</b></label>
-                <input className={s.c} type="Password" {...register('PASSWORD', {
+<div className={s.j}>
+                <input className={s.h} type={state ? 'password' : 'text'} autoComplete="off" {...register('PASSWORD', {
                   required: 'Поле обязательно к заполнению',
                   minLength: {
                     value: 2,
@@ -54,6 +65,8 @@ const Form = () => {
                   }
                 })}
                 />
+                <a href="#" className={state ? s.c : s.k} onClick={showhidepassword}></a>
+</div>
                 <div className={s.Password} >
                     {errors.PASSWORD && <span>{errors.PASSWORD.message || 'Error!'}</span>}
                 </div>

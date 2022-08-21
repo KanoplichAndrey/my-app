@@ -1,17 +1,15 @@
-import React from 'react';
-
+import React, { useState, useEffect } from 'react';
+import { getHeaderMenu } from '../../servis/servis';
 const Menu = () => {
-  const menuItems = [
-    'Home',
-    'Features',
-    'Pricing',
-    'About Us'
-  ];
+  const [menu, setMenu] = useState([]);
 
+  useEffect(() => {
+    const servisMenu = getHeaderMenu();
+    setMenu(servisMenu);
+  }, []);
   return (
         <ul>
-            {/* <NavLink to= {'/' + value}>{value}  </NavLink> */}
-            {menuItems.map((value, index) => {
+            {menu.map((value, index) => {
               return <li key={index}><a href={'#' + value}>{value}  </a> </li>;
             })}
         </ul>

@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import iconFacebook from '../../img/icon-Facebook.svg';
 import iconTwitter from '../../img/icon-Twitter.svg';
 import iconlinkedin from '../../img/icon-linkedin.svg';
 import iconGoogle from '../../img/icon-Google.svg';
 import logo from '../../img/logo.svg';
 import s from './Footer.module.css';
-
+import { getTextInfoFooter, getTextInfoFooter1 } from '../../servis/servis';
 const icons = [iconFacebook, iconTwitter, iconlinkedin, iconGoogle];
 
 const Footer = () => {
-  const textInfo = ['Privacy Policy', 'Terms of Conditions', 'Legal', 'Help'];
-  const textInfo1 = ['© 2020 All rights reserved'];
+  // const textInfo = ['Privacy Policy', 'Terms of Conditions', 'Legal', 'Help'];
+  // const textInfo1 = ['© 2020 All rights reserved'];
+  const [textInfo, setTextInfo] = useState([]);
+  const [textInfo1, setTextInfo1] = useState([]);
+  useEffect(() => {
+    const servistextInfo = getTextInfoFooter();
+    setTextInfo(servistextInfo);
+  }, []);
+  useEffect(() => {
+    const servistextInfo1 = getTextInfoFooter1();
+    setTextInfo1(servistextInfo1);
+  }, []);
 
   return <div className={s.Footer} id='About Us'>
     <div className={s.wrap} >

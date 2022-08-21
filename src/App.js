@@ -18,13 +18,6 @@ function App () {
       <div className='app-wrapper' id='Home'>
 
         <Header />
-
-        {/* <Routes> */}
-          {/* <Route path='/' element={<Header />}/>  */}
-          {/* <Route  path='/Features' element={<Feature />} />
-          <Route path='SingUpForm' element={<SingUpForm />} />
-          <Route path='/Pricing' element={<Pricing />} />
-        </Routes> */}
         <Content />
         <Feature />
         <SingUpForm />
