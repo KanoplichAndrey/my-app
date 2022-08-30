@@ -10,7 +10,7 @@ import Testimonials from './components/Testimonials/Testimonials/Testimonials';
 // import Footer from './components/Footer Flex/Footer';
 import Header from './components/Header/Header';
 import Footer from './components/Footer Grid/Footer';
-
+import Test from './components/Test/Test';
 function App () {
   return (
   // <Router>
@@ -25,7 +25,7 @@ function App () {
         <CTA />
         <Testimonials/>
         <Footer />
-
+        <Test />
       </div>
 
   // </Router>
