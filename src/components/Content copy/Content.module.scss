@@ -73,8 +73,8 @@
         letter-spacing: -0.325px;
         color: #27a759;
         position: absolute;
-        left: 104px;
-        top: 10px;
+        left: 110px;
+        top: 14px;
       }
 
       a {
@@ -316,11 +316,11 @@
             display: grid;
             justify-content: flex-start;
           }
-          & div:nth-child(5) p, & div:nth-child(9) p, & div:nth-child(13) p{
+          // & div:nth-child(5) p, & div:nth-child(9) p, & div:nth-child(13) p{
             // background: rgb(82, 12, 173);
             // display: grid;
             // justify-content: flex-start;
-          }
+          // }
 
           & div:nth-child(6), & div:nth-child(10), & div:nth-child(14){
             // background: rgb(12, 173, 133);
@@ -344,11 +344,11 @@
             display: grid;
             justify-content: flex-end;
           }
-          & div:nth-child(7) p, & div:nth-child(11) p, & div:nth-child(15) p{
+          // & div:nth-child(7) p, & div:nth-child(11) p, & div:nth-child(15) p{
             // background: rgb(152, 209, 19);
             // display: grid;
             // justify-content: flex-end;
-          }
+          // }
           
 
         }

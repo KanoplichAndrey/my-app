@@ -1,21 +1,35 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import { React, useState, useEffect } from 'react';
 import './App.css';
 // import Content from './components/Content/Content';
+
 import Content from './components/Content copy/Content';
 import Feature from './components/Feature/Feature/Feature';
 import SingUpForm from './components/Sing_Up_Form/SingUpForm';
 import Pricing from './components/Pricing/Pricing/Pricing';
 import CTA from './components/CTA/CTA';
 import Testimonials from './components/Testimonials/Testimonials/Testimonials';
+
 // import Footer from './components/Footer Flex/Footer';
 import Header from './components/Header/Header';
 import Footer from './components/Footer Grid/Footer';
 import Test from './components/Test/Test';
+import ModalWindow from './components/ModalWindow/ModalWindow';
+
+// import { useState } from 'react';
+// import { showModal } from '../src/components/ModalWindow';
+
 function App () {
+  const [state, setState] = useState(true);
+
+  const showModal1 = () => {
+    setState(false);
+  };
+
   return (
   // <Router>
 
-      <div className='app-wrapper' id='Home'>
+      <div className={state ? 'app-wrapper' : 'active'} id='Home'onClick={showModal1} >
 
         <Header />
         <Content />
@@ -25,7 +39,8 @@ function App () {
         <CTA />
         <Testimonials/>
         <Footer />
-        <Test />
+        <ModalWindow state={state} />
+        {/* <Test /> */}
       </div>
 
   // </Router>

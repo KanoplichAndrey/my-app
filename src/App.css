@@ -11,9 +11,20 @@ body {
   width: 100%;
 }
 
-.app-wrapper {
+.active {
   margin: 0 auto;
   width: 1400px;
+  z-index: 1000;
+}
+.active select:focus {
+  outline: 0;
+}
+
+.app-wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1400px;
+  pointer-events: none;
 }
 .app-wrapper select:focus {
   outline: 0;

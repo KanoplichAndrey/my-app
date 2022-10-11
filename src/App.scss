@@ -12,13 +12,24 @@
 }
 body{
   width: 100%;
+  
+ 
+}
+.active {
+  
+ margin: 0 auto;
+ width: 1400px;
+ z-index: 1000;
+ select:focus{
+   outline: 0;
+ }
 }
 
-
 .app-wrapper {
+  overflow: hidden ;
   margin: 0 auto;
   width: 1400px;
-
+  pointer-events: none;
   select:focus{
     outline: 0;
   }
@@ -106,9 +117,9 @@ body{
   font-size: 6.5px;
   
 }
-.Slider1 .slick-track{
+// .Slider1 .slick-track{
   
-}
+// }
 .slick-dots li {
 
   cursor: pointer;

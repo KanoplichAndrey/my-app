@@ -30,7 +30,7 @@ const RenderCart = () => {
     setArrayRenderCart(servisarrayRenderCart);
   }, []);
   return <>
-    { arrayRenderCart.map(function (item, index) {
+    { arrayRenderCart.map((item, index) => {
       return <Cart {...item} key={index} />;
     })}
 
