@@ -29,14 +29,4 @@
   z-index: 9;
   opacity: 0.5;
   background: rgb(24, 13, 13);
-}
-
-.none {
-  background: red;
-  width: 100px;
-  height: 100px;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  transform: translate(695%, 288%);
 }/*# sourceMappingURL=modal.module.css.map */
