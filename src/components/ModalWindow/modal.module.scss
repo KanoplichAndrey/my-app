@@ -20,6 +20,7 @@
  }
  
  .btn{
+    margin-top: 10px;
     width: 60px;
     height: 25px;
     z-index: 101;
@@ -35,7 +36,7 @@
     z-index: 9;
     opacity: 0.5;
     background: rgb(24, 13, 13);
-   
+
     
 }
 
@@ -47,5 +48,8 @@
    // top: 0px;
    // left: 0px;
    // transform: translate(695%, 288%);
+   body{
+      overflow: auto;
+   }
    
 }

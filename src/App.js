@@ -13,23 +13,20 @@ import Testimonials from './components/Testimonials/Testimonials/Testimonials';
 // import Footer from './components/Footer Flex/Footer';
 import Header from './components/Header/Header';
 import Footer from './components/Footer Grid/Footer';
-import Test from './components/Test/Test';
+// import Test from './components/Test/Test';
 import ModalWindow from './components/ModalWindow/ModalWindow';
-
-// import { useState } from 'react';
-// import { showModal } from '../src/components/ModalWindow';
 
 function App () {
   const [state, setState] = useState(true);
-
-  const showModal1 = () => {
-    setState(false);
-  };
+  const showModal = () => { setState(false); };
+  useEffect(() => {
+    console.log('render');
+  }, []);
 
   return (
   // <Router>
 
-      <div className={state ? 'app-wrapper' : 'active'} id='Home'onClick={showModal1} >
+      <div className={state ? 'app-wrapper' : 'active'} id='Home'onClick={ showModal } >
 
         <Header />
         <Content />
@@ -41,6 +38,7 @@ function App () {
         <Footer />
         <ModalWindow state={state} />
         {/* <Test /> */}
+
       </div>
 
   // </Router>

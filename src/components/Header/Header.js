@@ -9,6 +9,7 @@ const Header = () => {
          <a href="#" className={s.logo}>
             <img title="my-img" src={logo} alt="my-img" />
          </a>
+
          <div className={s.menu}>
             <Menu />
          </div>

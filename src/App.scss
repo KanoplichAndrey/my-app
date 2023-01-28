@@ -20,6 +20,7 @@ body{
  margin: 0 auto;
  width: 1400px;
  z-index: 1000;
+
  select:focus{
    outline: 0;
  }
@@ -30,6 +31,7 @@ body{
   margin: 0 auto;
   width: 1400px;
   pointer-events: none;
+
   select:focus{
     outline: 0;
   }

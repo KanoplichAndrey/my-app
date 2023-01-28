@@ -12,11 +12,14 @@ const ModalWindow = ({ state, setState }) => {
   </div>
       <dialog open = {state ? 'open' : ''} className={s.modal} >
         <h2>Это загаловок</h2>
-         <p >
+         <p color={'secondary'} >
         What is Lorem Ipsum?
 
         </p>
-        <Button customClass={s.btn} text='close' onClick={setState} />
+        {state
+          ? <Button customClass={s.btn} text='close' onClick={setState} />
+          : <Button customClass={s.btn} text='clo' onClick={setState} />
+      }
       </dialog>
 
       </>
